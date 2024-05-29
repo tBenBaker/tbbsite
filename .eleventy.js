@@ -28,8 +28,8 @@ module.exports = function(eleventyConfig) {
     let metadata = await Image(src, {
       widths: [300, 600, 900],
       formats: ["jpeg"],
-      outputDir: "./_site/img/",
-      urlPath: "/img/"
+      outputDir: "_site/assets/img/", // Output images to _site/assets/img
+      urlPath: "/assets/img/"
     });
 
     let imageAttributes = {
@@ -49,13 +49,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   return {
     dir: {
       input: "src",
       includes: "_includes",
-      output: "_site"
+      output: "docs"
     },
     passthroughFileCopy: true
   };
