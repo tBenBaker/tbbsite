@@ -29,5 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
     var randomImage = images[Math.floor(Math.random() * images.length)];
     var header = document.getElementById('header');
-    header.style.backgroundImage = 'url(/assets/img/backgrounds/' + randomImage + ')';
+    header.style.backgroundImage = 'url(' + '{{ site.url }}/assets/img/backgrounds/' + randomImage + ')';
 });
