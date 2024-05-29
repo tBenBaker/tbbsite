@@ -5,6 +5,9 @@ on:
     branches:
       - main  # or your default branch
 
+permissions:
+  contents: write  # Ensure the workflow has write permissions
+
 jobs:
   build:
     runs-on: ubuntu-latest
