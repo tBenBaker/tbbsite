@@ -207,7 +207,7 @@ p {
     justify-content: center;
     padding: 20px;
     font-size: 1.8em;
-    background: url('/assets/img/header-bg.jpg') no-repeat center center;
+    background: url('{{ site.url }}/assets/img/header-bg.jpg') no-repeat center center;
     background-size: cover;
     color: white; 
     flex-wrap: wrap;
@@ -216,7 +216,7 @@ p {
 .profile-info {
     font-family: 'Merriweather', serif;
     margin-left: 250px;
-    padding: 15px; /* Add padding inside the border */
+    padding: 15px;
     background: rgba(0, 0, 0, 0.21); /* Semi-transparent background for better readability */
     border: 2px solid rgba(255, 255, 255, 0.1); /* Faint, rounded border */
     border-radius: 15px; /* Rounded corners */
