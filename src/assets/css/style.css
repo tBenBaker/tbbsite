@@ -207,7 +207,7 @@ p {
     justify-content: center;
     padding: 20px;
     font-size: 1.8em;
-    background: url('{{ site.url }}/assets/img/header-bg.jpg') no-repeat center center;
+    background: url('/assets/img/header-bg.jpg') no-repeat center center;
     background-size: cover;
     color: white; 
     flex-wrap: wrap;

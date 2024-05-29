@@ -48,8 +48,8 @@ module.exports = function(eleventyConfig) {
     .use(markdownItTOC);
   eleventyConfig.setLibrary("md", markdownLib);
 
-  // Passthrough copy
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
+  // Passthrough copy for assets and images
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   return {
     dir: {
