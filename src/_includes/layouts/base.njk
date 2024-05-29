@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap">
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/img/og-image.jpg">
+    <script src="/assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!document.styleSheets.length) {
+                alert('CSS failed to load.');
+            }
+        });
+    </script>
+</head>
+<body>
+    <header id="header">
+        <nav aria-label="Main Navigation">
+            <ul role="menubar">
+                <li role="none"><a role="menuitem" href="#about">About Me</a></li>
+                <li role="none"><a role="menuitem" href="#research">Research</a></li>
+                <li role="none"><a role="menuitem" href="#teaching">Teaching</a></li>
+                <li role="none"><a role="menuitem" href="#dance">Dance</a></li>
+                <li role="none"><a role="menuitem" href="#cv">CV</a></li>
+            </ul>
+        </nav>
+        <div class="profile-header">
+            <img src="/assets/img/GordonLight1.jpg" alt="Ben Baker" class="profile-image">
+            <p class="profile-info"> Ben Baker, JD PhD <br>
+                Assistant Professor <br>
+                Department of Philosophy <br>
+                Davis Institute for Artificial Intelligence <br> 
+                Colby College</p>
+        </div>
+    </header>
+    <main>
+        {{ content | safe }}
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <ul>
+                    <li><i class="fas fa-envelope"></i> tbbaker(at)colby.edu</li>
+                    <li><a href="https://scholar.google.com/citations?user=0kLaUbEAAAAJ"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+                    <li><a href="https://www.linkedin.com/in/ben-baker-m27/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://twitter.com/tbbake"><i class="fab fa-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+            <div class="footer-copy">
+                <p>© 2024 Ben Baker</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
