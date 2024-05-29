@@ -49,7 +49,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Passthrough copy
-  eleventyConfig.addPassthroughCopy({ "src/assets": "docs/assets" });
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   return {
     dir: {
