@@ -158,81 +158,7 @@ a:focus {
     outline-offset: 2px;
 }
 
-/* Mobile Optimization */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    .content-container {
-        flex-direction: column;
-    }
-
-    .left-column, .right-column {
-        width: 100%;
-        padding: 10px;
-    }
-
-    section {
-        padding: 10px;
-        margin: 10px 0;
-    }
-
-    footer {
-        padding: 10px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 0.85em;
-    }
-
-    .footer-links ul {
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .footer-links li {
-        margin: 10px 0;
-    }
-
-    .profile-header {
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        text-align: center;
-        background-size: cover; /* Ensure the background image covers the area */
-        background-position: center; /* Center the background image */
-    }
-
-    .profile-info {
-        margin-left: 0;
-        padding: 10px;
-        font-size: 1em; /* Adjust font size as needed */
-        width: 100%;
-    }
-
-    .profile-image {
-        width: 80%;
-        height: auto;
-        margin-bottom: 10px;
-    }
-}
-
-/* Typography (Placeholder) */
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -243,6 +169,7 @@ p {
     color: #fff;
 }
 
+/* Profile Styles */
 .profile-header {
     display: flex;
     align-items: center;
@@ -349,4 +276,79 @@ a:hover {
 .section-cv a:hover {
     background: rgba(255, 255, 255, 0.2); /* Faint grey box on hover */
     text-decoration: none; /* Remove underline on hover */
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+    .footer-links li {
+        margin: 10px 0;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        background-size: cover; /* Ensure the background image covers the area */
+        background-position: center; /* Center the background image */
+    }
+    
+    .profile-info {
+        margin-left: 0;
+        padding: 10px;
+        font-size: 0.5em; /* Adjust font size as needed */
+        width: fit-content;
+    }
+
+    .profile-image {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
 }
