@@ -194,11 +194,15 @@ a:focus {
     .footer-content {
         flex-direction: column;
         align-items: center;
+        text-align: center;
+        font-size: 0.85em;
     }
 
     .footer-links ul {
         flex-direction: column;
         align-items: center;
+        padding: 0;
+        margin: 0;
     }
 
     .footer-links li {
@@ -210,17 +214,21 @@ a:focus {
         align-items: center;
         padding: 10px;
         text-align: center;
+        background-size: cover; /* Ensure the background image covers the area */
+        background-position: center; /* Center the background image */
     }
 
     .profile-info {
         margin-left: 0;
         padding: 10px;
-        font-size: 1.2em; /* Adjust font size as needed */
+        font-size: 1em; /* Adjust font size as needed */
+        width: 100%;
     }
 
     .profile-image {
-        width: 100%;
+        width: 80%;
         height: auto;
+        margin-bottom: 10px;
     }
 }
 
