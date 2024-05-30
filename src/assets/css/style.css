@@ -113,11 +113,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
 }
 
 .footer-links {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* Ensure links wrap on smaller screens */
 }
 
 .footer-links ul {
@@ -125,6 +127,7 @@ footer {
     padding: 0;
     display: flex;
     gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Ensure links wrap on smaller screens */
 }
 
 .footer-links li {
@@ -145,9 +148,8 @@ footer {
 }
 
 .footer-copy {
-    position: absolute;
-    bottom: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    position: relative;
+    margin-top: 10px;
     font-size: 1em;
 }
 
@@ -187,6 +189,38 @@ a:focus {
 
     footer {
         padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links li {
+        margin: 10px 0;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .profile-info {
+        margin-left: 0;
+        padding: 10px;
+        font-size: 1.2em; /* Adjust font size as needed */
+    }
+
+    .profile-image {
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -262,6 +296,7 @@ a:hover {
 .section-research strong {
     font-size: 1.4em; /* Increase the font size for the strong element */
 }
+
 /* Ensure responsive and proper layout for video containers */
 .video-container {
     position: relative;
@@ -307,5 +342,3 @@ a:hover {
     background: rgba(255, 255, 255, 0.2); /* Faint grey box on hover */
     text-decoration: none; /* Remove underline on hover */
 }
-
-
