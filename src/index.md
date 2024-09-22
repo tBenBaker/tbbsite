@@ -95,8 +95,10 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p>I just finished my first year as faculty! <br><br>
-        Currently some things I'm working on are an essay about "What is AGI?" for a Routledge coursebook in Philosophy of Mind, the next steps of the "Computational Kinematics" project, refining a late-stage collaborative paper on an ecological view of complex agents, another late-stage collaboration looking across disciplines at how conceptions of representation relate conceptions of their usefulness, building a couple of new courses for 2024-5, and enjoying my first summer in southern Maine.   </p>
-     </section>
+        <p>Moving right along in year 2 at Colby! <br><br>
+         Revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind. Developing the next steps of my work using computational methods to analyze movement. Contributing to a few fun collaborations, including a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
+        In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. I'm excited to be slated for a senior majors' seminar called 'AI and Human Values' in the Spring.<br><br>
+        Shooting hoops in the driveway as much as I can before Maine's winter sets in!</p>
+    </section>
 </div>
 

@@ -113,11 +113,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap; /* Ensure elements wrap on smaller screens */
 }
 
 .footer-links {
     display: flex;
     align-items: center;
+    flex-wrap: wrap; /* Ensure links wrap on smaller screens */
 }
 
 .footer-links ul {
@@ -125,6 +127,7 @@ footer {
     padding: 0;
     display: flex;
     gap: 20px; /* Space between items */
+    flex-wrap: wrap; /* Ensure links wrap on smaller screens */
 }
 
 .footer-links li {
@@ -145,9 +148,8 @@ footer {
 }
 
 .footer-copy {
-    position: absolute;
-    bottom: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    position: relative;
+    margin-top: 10px;
     font-size: 1em;
 }
 
@@ -156,41 +158,7 @@ a:focus {
     outline-offset: 2px;
 }
 
-/* Mobile Optimization */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    .content-container {
-        flex-direction: column;
-    }
-
-    .left-column, .right-column {
-        width: 100%;
-        padding: 10px;
-    }
-
-    section {
-        padding: 10px;
-        margin: 10px 0;
-    }
-
-    footer {
-        padding: 10px;
-    }
-}
-
-/* Typography (Placeholder) */
+/* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -201,6 +169,7 @@ p {
     color: #fff;
 }
 
+/* Profile Styles */
 .profile-header {
     display: flex;
     align-items: center;
@@ -262,6 +231,7 @@ a:hover {
 .section-research strong {
     font-size: 1.4em; /* Increase the font size for the strong element */
 }
+
 /* Ensure responsive and proper layout for video containers */
 .video-container {
     position: relative;
@@ -308,4 +278,77 @@ a:hover {
     text-decoration: none; /* Remove underline on hover */
 }
 
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .content-container {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 0.5em;
+    }
+
+    .footer-links ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        font-size: 0.5em;
+    }
+
+    .footer-links li {
+        margin: 10px 0;
+    }
+
+    .profile-header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        text-align: center;
+        background-size: cover; /* Ensure the background image covers the area */
+        background-position: center; /* Center the background image */
+    }
+    
+    .profile-info {
+        margin-left: 0;
+        padding: 10px;
+        font-size: 0.5em; /* Adjust font size as needed */
+        width: fit-content;
+    }
+
+    .profile-image {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
