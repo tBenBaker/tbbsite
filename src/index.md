@@ -12,7 +12,7 @@ title: Home
     <br><br> 
     My background lets me approach questions about cognition, AI, and ethics from multiple angles. I'm especially interested in how our capacity for abstract thought interacts with our physical experience of the world an our bodies -- a curiosity that has led me to explore these issues through the lens of dance and movement. In my research, in the classroom, and in other ways engaging with my academic community, I'm passionate about contributing to our understanding of the relationships between mind, body, and technology.
     <br><br> 
-    I also love playing basketball, snowboarding, reading sci-fi/fantasy, listening to jazz, Hip-Hop and electronic music. I'm nostalgic about videogames and anime, and excited about cyborgs. With my partner Sheela I'm parent to Kavya (4yo) and Asha (2yo), who have taught me more than all of my schooling. 
+    I also love playing basketball, snowboarding, reading sci-fi/fantasy, and listening to music. I'm nostalgic about videogames and anime, and excited about cyborgs. Home is Northeastern US and wherever I'm with my partner Sheela and our kids Kavya and Asha. 
             
     </p>
 </section>
@@ -100,9 +100,11 @@ title: Home
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
         <p>Moving right along in year 2 at Colby! <br><br>
-         Revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind. Developing the next steps of my work using computational methods to analyze movement. Contributing to a few fun collaborations, including a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
+         I'm revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, and contributing to a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
         In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. I'm excited to be slated for a senior majors' seminar called 'AI and Human Values' in the Spring.<br><br>
-        Shooting hoops in the driveway as much as I can before Maine's winter sets in!</p>
+        In November I'll be giving a talk at James Madison University, in April I'll be part of the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, and then giving a talk at Oberlin's Colloquium in Philosophy.<br><br>
+    
+        And I'm shooting hoops in the driveway as much as I can before Maine's winter sets in.</p>
     </section>
 </div>
 
