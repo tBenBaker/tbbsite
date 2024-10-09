@@ -8,18 +8,17 @@ title: Home
 <section id="about" class="section-about">
     <h2>About Me</h2>
     <p>
-    I'm a professor working mainly on issues at the intersection of philosophy of mind, cognitive science, and artificial intelligence. I'm in the philosophy department at Colby, having come from a Computational Neuroscience postdoctoral fellowship at the University of Pennsylvania, where I also received my PhD in Philosophy. Before that I was at Yale Law School for my JD.
+    I'm a professor working at the intersection of philosophy of mind, cognitive science, and artificial intelligence. I'm in the philosophy department at Colby, having come from a Computational Neuroscience postdoctoral fellowship at the University of Pennsylvania, where I also received my PhD in Philosophy. Before that I was at Yale Law School for my JD.
     <br><br> 
-    My background lets me approach questions about cognition, AI, and ethics from multiple angles. I'm especially interested in how our capacity for abstract thought interacts with our physical experience of the world an our bodies -- a curiosity that has led me to explore these issues through the lens of dance and movement. In my research, in the classroom, and in other ways engaging with my academic community, I'm passionate about contributing to our understanding of the relationships between mind, body, and technology.
-    <br><br> 
-    I also love playing basketball, snowboarding, reading sci-fi/fantasy, and listening to music. I'm nostalgic about videogames and anime, and excited about cyborgs. Home is Northeastern US and wherever I'm with my partner Sheela and our kids Kavya and Asha. 
+    My research primarily concerns the concepts and empirical methods we use to describe and study cognitive processes. I'm interested in the ways deep learning systems contribute to cognitive science, and in the cognitive phenomena they yet fail to shed light on. I also want to better understand how human embodiment shapes the ways we think, as compared to other forms of cognition, which partly motivates me to examine cognition through the lens of dance and expressive movement.  
+    <br><br>
+   
             
     </p>
 </section>
 
 <section id="research" class="section-research">
     <h2>Research</h2>
-    <p>I work broadly on questions about how to understand and study cognition, about emulating cognitive abilities in AI, and about the ethical and legal considerations surrounding AI.  </p>
     <br><br>
     <strong>Selected Publications</strong><br>
     <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11098014/">Computational kinematics of dance: distinguishing Hip Hop genres</a> (with Tony Liu, Jordan Matelsky, Felipe Parodi, Brett Mensh, John Krakauer and Konrad Kording),<br>-- 2024 <em>Frontiers in Human Robotics and AI</em></p>
@@ -99,12 +98,12 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p>Moving right along in year 2 at Colby! <br><br>
-         I'm revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, and contributing to a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
-        In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. I'm excited to be slated for a senior majors' seminar called 'AI and Human Values' in the Spring.<br><br>
+        <p>In my second year in Maine, now more of a rhythm with the work at Colby <br><br>
+         Some things I'm now working on: revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, and contributing to a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
+        In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. In the Spring I'm looking forward to teaching a senior majors' seminar called 'AI and Human Values'.<br><br>
         In November I'll be giving a talk at James Madison University, in April I'll be part of the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, and then giving a talk at Oberlin's Colloquium in Philosophy.<br><br>
     
-        And I'm shooting hoops in the driveway as much as I can before Maine's winter sets in.</p>
+        </p>
     </section>
 </div>
 
