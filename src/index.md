@@ -98,8 +98,8 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p>In my second year in Maine, now more of a rhythm with the work at Colby <br><br>
-         Some things I'm now working on: revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, and contributing to a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
+        <p>In my second year in Maine and at Colby, now in more of a rhythm here <br><br>
+         Some things I'm up to: revising a draft about AGI (Artificial General Intelligence) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, and contributing to a grant proposal aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
         In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. In the Spring I'm looking forward to teaching a senior majors' seminar called 'AI and Human Values'.<br><br>
         In November I'll be giving a talk at James Madison University, in April I'll be part of the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, and then giving a talk at Oberlin's Colloquium in Philosophy.<br><br>
     
