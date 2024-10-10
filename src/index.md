@@ -8,7 +8,7 @@ title: Home
 <section id="about" class="section-about">
     <h2>About Me</h2>
     <p>
-    I'm a professor working at the intersection of philosophy of mind, cognitive science, and artificial intelligence. I'm in the philosophy department at Colby, having come from a Computational Neuroscience postdoctoral fellowship at the University of Pennsylvania, where I also received my PhD in Philosophy. Before that I was at Yale Law School for my JD.
+    I work at the intersection of philosophy of mind, cognitive science, and artificial intelligence. I'm in the philosophy department at Colby. Previously I was a postdoctoral fellow in computational neuroscience at the University of Pennsylvania, where I also received my PhD in Philosophy, and before that I was at Yale Law School for my JD.
     <br><br> 
     My research primarily concerns the concepts and empirical methods we use to describe and study cognitive processes. I'm interested in the ways deep learning systems contribute to cognitive science, and in the cognitive phenomena they yet fail to shed light on. I also want to better understand how human embodiment shapes the ways we think, as compared to other forms of cognition, which partly motivates me to examine cognition through the lens of dance and expressive movement.  
     <br><br>
