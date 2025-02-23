@@ -8,16 +8,8 @@ title: Home
 <section id="about" class="section-about">
     <h2>About Me</h2>
     <p>
-    I work at the intersection of philosophy of mind, cognitive science, and artificial intelligence. 
-    I'm a professor the philosophy department at Colby, and before I got here I completed a PhD in Philosophy and a postdoctoral fellowship in computational neuroscience and at the University of Pennsylvania, 
-    and before that I received my JD from Yale Law School.
+    I am an Assistant Professor of Philosophy at Colby College and affiliated faculty at the Davis Institute for Artificial Intelligence. My research explores how we understand and model cognitive systems. My work focuses particularly on the role of internal representations in biological and artificial systems, and on how embodiment and expressive movement shape cognition. I have recent work examining how to evaluate progress in AI in terms of human values, and have developed a novel approach to the computational analysis of human movement, drawing on my background as a dancer. I regularly collaborate across disciplines, contributing philosophical perspectives to projects working to simulate neural systems and apply new machine learning methods. At Colby, I teach courses in philosophy of mind, AI, cognitive science, and dance. Before joining the Colby faculty, I completed a postdoctoral fellowship in computational neuroscience at UPenn, where I also received my PhD in Philosophy, and I hold a JD from Yale Law School.
     <br><br> 
-    My research concerns the concepts and empirical methods we use to describe and study cognitive processes. 
-    For instance, I'm interested in the uses and limitations of deep learning systems for shedding light on questions in cognitive science, and I want to better understand how human embodiment shapes the ways we think. 
-    To that end I often examine cognition through the lens of dance and expressive movement. I also think a lot about the central concepts and methods of cognitive science and neuroscience, 
-    and about the impact that AI developments have on the way we promote and preserve human values. 
-    <br><br>
-   
             
     </p>
 </section>
