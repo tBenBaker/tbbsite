@@ -50,6 +50,10 @@ module.exports = function(eleventyConfig) {
 
   // Passthrough copy for assets and images
   eleventyConfig.addPassthroughCopy("src/assets");
+  
+  // Ensure JS files are copied to the output directory
+  eleventyConfig.addPassthroughCopy("src/assets/js");
+  eleventyConfig.addPassthroughCopy("src/assets/css");
 
   return {
     dir: {
