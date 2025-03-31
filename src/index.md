@@ -67,12 +67,12 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p>In my second year in Maine and at Colby, now in more of a rhythm here <br><br>
-         Some things I'm up to: revising a draft about a non-anthropomorphic view of Artificial General Intelligence (AGI) for a Routledge coursebook in Philosophy of Mind, developing the next steps of my work using computational methods to analyze movement, 
-         and contributing to a grant-seeking effort aimed at simulating the nervous system of the c. elegans worm down to the molecular level.<br><br>
-        In the classroom, I'm teaching an intro-level 'Mind & Machine' course and an upper-level 'Philosophy of Emotion'. In the Spring I'm looking forward to teaching a senior majors' seminar called 'AI and Human Values'.<br><br>
-        Also this Spring I'm excited to be a speaker in the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, to give a talk at Oberlin's Colloquium in Philosophy, and to be part of 
-        Slippage: 3D Humanities Series at Northwestern University.<br><br>
+        <p>Now in my second Spring semester at Colby, getting more fully engaged in the academic community there and in the rhythm of life in Maine. <br><br>
+         Some things I'm up to: revising a draft about a non-anthropomorphic view of Artificial General Intelligence (AGI) for a Routledge coursebook in Philosophy of Mind; finishing a draft about the forms of thinking that are essential to dance; developing the next steps of my work using computational methods to analyze movement, including setting up a motion capture lab in Colby's performance arts center. <br><br>
+        In the classroom, I'm teaching an intro-level 'Mind, Body & Machine' course, and a senior majors seminar called 'AI and Human Values'. I'm also advising two interesting independent research projects by Colby seniors. And thinking through how to adapt my teaching to advancing AI tools, with the help of colleagues at the Davis AI Institute.  <br><br>
+        In the coming weeks I'm looking forward to speaking at the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, presenting at Oberlin's Colloquium in Philosophy, and contributing to the Slippage: 3D Humanities Series at Northwestern University.<br><br>
+        Also looking forward to basketball in the driveway -- the snow has been fun (mostly), but I'm ready for some more sun.
+
     
         </p>
     </section>
