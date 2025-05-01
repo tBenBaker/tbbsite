@@ -59,7 +59,7 @@ title: Home
 
 <section id="cv" class="section-cv">
     <h2>CV</h2>
-    <p>You can view and download my full CV by clicking<a href="/assets/CV.pdf" target="_blank">here</a></p> <br><br>
+    <p>You can view and download my full CV <a href="/assets/CV.pdf" target="_blank">here</a></p> <br><br>
 </section>
     
 </div>
@@ -69,9 +69,9 @@ title: Home
         <h2>About Now</h2>
         <p>Now in my second Spring semester at Colby, getting more fully engaged in the academic community there and in the rhythm of life in Maine. <br><br>
          Some things I'm up to: revising a draft about a non-anthropomorphic view of Artificial General Intelligence (AGI) for a Routledge coursebook in Philosophy of Mind; finishing a draft about the forms of thinking that are essential to dance; developing the next steps of my work using computational methods to analyze movement, including setting up a motion capture lab in Colby's performance arts center. <br><br>
-        In the classroom, I'm teaching an intro-level 'Mind, Body & Machine' course, and a senior majors seminar called 'AI and Human Values'. I'm also advising two interesting independent research projects by Colby seniors. And thinking through how to adapt my teaching to advancing AI tools, with the help of colleagues at the Davis AI Institute.  <br><br>
-        In the coming weeks I'm looking forward to speaking at the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, presenting at Oberlin's Colloquium in Philosophy, and contributing to the Slippage: 3D Humanities Series at Northwestern University.<br><br>
-        Also looking forward to basketball in the driveway -- the snow has been fun (mostly), but I'm ready for some more sun.
+        In the classroom, I'm teaching an intro-level 'Mind, Body & Machine' course, and a senior majors seminar called 'AI and Human Values'. Winding down the semester now, excited for our Philosophy Symposium linked to the AI seminar, for which we'll have Henry Shevlin come speak and visit our class. <br><br>
+        I recently had the pleasure of speaking at the Technology & Cognition symposium at the Southern Society for Philosophy and Psychology, presenting at Oberlin's Colloquium in Philosophy, and contributing to the Slippage: 3D Humanities Series at Northwestern University.<br><br>
+        Finally been able to wheel my basketball hoop back out to the driveway for midday shootarounds. 
 
     
         </p>
