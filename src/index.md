@@ -59,7 +59,9 @@ title: Home
 
 <section id="cv" class="section-cv">
     <h2>CV</h2>
-    <p>You can view and download my full CV <a href="/assets/CV.pdf" target="_blank">here</a></p> <br><br>
+    <p>You can view and download my full CV <a href="/assets/CV.pdf" target="_blank">here</a>.</p>
+    <p>For inquiries about consulting, see <a href="/consulting/">this page</a>.</p>
+    <br><br>
 </section>
     
 </div>
@@ -70,7 +72,7 @@ title: Home
         <p> Second year at Colby in the rear-view, enjoying summer in Southern Maine and its many welcoming hikes, beaches, and playgrounds <br><br>
          Revising a paper about agent complexity for Minds & Machines (fingers crossed - this one has seen many iterations). Meanwhile waiting for responses about several projects: a chapter about Artificial General Intelligence (AGI) for a Routledge coursebook in Philosophy of Mind, a paper "Six Forms of Dance Cognition" from Phenomenology and the Cognitive Sciences, and an NSF proposal for a science and technology center aiming to make the first comprehensive simulation of a nervous system. Trying not to let the excited waiting distract from other ongoing projects    <br><br>
          Like the motion lab I've been building at Colby -- with the major pieces in place now I'm just tinkering so that the 3D pose results stay accurate when the subject is flipping, spinning, or six-stepping. And look, <a href="https://news.colby.edu/story/where-ai-meets-hip-hop/" target="_blank">Colby News did a story about it</a>!  <br><br>
-         And of course preparing for the Fall semester and the two courses I'll teach -- my recurring "Mind Body & Machine" course, and a new one called "Bodies and Power"<br><br>
+         Preparing for the Fall semester and the two courses I'll teach --  another iteration of "Mind Body & Machine" and a new one called "Bodies and Power"<br><br>
 
         </p>
     </section>

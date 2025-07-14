@@ -352,3 +352,146 @@ a:hover {
         margin-bottom: 10px;
     }
 }
+/* Consulting Page Specific Styles */
+.section-consulting-header {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+.section-consulting-header h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.section-consulting-header p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+.section-services {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+.section-services h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+}
+
+.services-list li {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.services-list li:before {
+    content: "•";
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.section-select-work {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+.section-select-work h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.section-select-work p {
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+
+.section-contact-consulting {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+.section-contact-consulting h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.section-contact-consulting p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+.section-credentials {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: inherit;
+}
+
+.section-credentials h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+.section-credentials h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.section-credentials p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Ensure consulting page links maintain consistent styling */
+.section-select-work a,
+.section-contact-consulting a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.section-select-work a:hover,
+.section-contact-consulting a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
