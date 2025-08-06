@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #3f245f;
+    background-color: #1a365d; /* Change from #3f245f */
     color: #fff;
 }
 
@@ -54,7 +54,7 @@ html {
 .content-container {
     display: flex;
     justify-content: space-between;
-    background-color: #3f245f; /* Shared background color */
+    background-color: #1a365d; /* Shared background color */
 }
 
 .left-column, .right-column {
@@ -64,11 +64,11 @@ html {
 }
 
 .left-column {
-    background-color: #3f245f; 
+    background-color: #1a365d; /* Change from #3f245f */
 }
 
 .right-column {
-    background-color: #2c1b3f; 
+    background-color: #0f2a44; /* Change from #2c1b3f */
     padding: 20px;
 }
 
@@ -104,7 +104,7 @@ section p {
 
 footer {
     position: relative;
-    background: #712e82; 
+    background: #2c5282; /* Change from #712e82 */
     padding: 20px;
     color: #fff;
 }
