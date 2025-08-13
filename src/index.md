@@ -48,7 +48,7 @@ title: Home
 <section id="dance" class="section-dance">
     <h2>Dance</h2>
     <p>Dance is a major part of my life and identity. My primary background is in hip-hop choreography, popping, and house, and I like to explore many movement styles.</p>
-    <p><strong>A Dance Video</strong></p>
+    <p><strong>A Dance Work by Me</strong></p>
 
     <div id="random-dance-video-container">
         </div>
