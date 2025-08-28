@@ -9,8 +9,8 @@ title: Home
     <h2>About Me</h2>
     <p>
     I am an Assistant Professor of Philosophy at Colby College and affiliated faculty at the Davis Institute for Artificial Intelligence. My research explores how we understand and model cognitive capacities, and how we understand and interact with artificial intelligence. One strand of my work focuses on internal representations that structure the behavior of biological and artificial systems. Another focuses on how embodiment and expressive movement shape cognition. I have a special interest in studying the mind in dance, and have developed a novel approach to the computational analysis of human movement. I regularly collaborate across disciplines, contributing philosophical perspectives to projects working to simulate neural systems and apply new machine learning methods. At Colby, I teach courses in philosophy of mind, AI, cognitive science, and dance. Before joining the Colby faculty, I completed a postdoctoral fellowship in computational neuroscience at UPenn, where I also received my PhD in Philosophy, and I hold a JD from Yale Law School.
-    <br><br> 
-            
+    <br><br>
+
     </p>
 </section>
 
@@ -29,7 +29,6 @@ title: Home
     &nbsp;&nbsp;&nbsp;<a href="https://www.pdcnet.org/teachphil/content/teachphil_2021_0999_3_30_142">Spanish Translation by Fredy H.P. Galindo</a><br>&nbsp;&nbsp;&nbsp;-- 2023 <em>Cuestiones Filosophia</em></p>
 </section>
 
-
 <section id="teaching" class="section-teaching">
     <h2>Teaching</h2>
     <p>I strive to empower my students to let their curiosity and passion drive their education. My courses challenge students to consider a topic from multiple disciplinary and cultural perspectives, and I incorporate hands-on interaction with emerging technologies, helping to build broadly applicable skills and knowledge.  <br><br>
@@ -42,7 +41,7 @@ title: Home
     Philosophy of Visual Perception<br>
     Ethics
     </p>
-    
+
 </section>
 
 <section id="dance" class="section-dance">
@@ -56,25 +55,26 @@ title: Home
     <br><br>
 </section>
 
-
 <section id="cv" class="section-cv">
     <h2>CV</h2>
     <p>You can view and download my full CV <a href="/assets/CV.pdf" target="_blank">here</a>.</p>
     <p>For inquiries about consulting, see <a href="/consulting/">this page</a>.</p>
     <br><br>
 </section>
-    
+
 </div>
 
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p> Second year at Colby in the rear-view, enjoying summer in Southern Maine and its many welcoming hikes, beaches, and playgrounds <br><br>
-         Revising a paper about agent complexity for Minds & Machines (fingers crossed - this one has seen many iterations). Meanwhile waiting for responses about several projects: a chapter about Artificial General Intelligence (AGI) for a Routledge coursebook in Philosophy of Mind, a paper "Six Forms of Dance Cognition" from Phenomenology and the Cognitive Sciences, and an NSF proposal for a science and technology center aiming to make the first comprehensive simulation of a nervous system. Trying not to let the excited waiting distract from other ongoing projects    <br><br>
-         Like the motion lab I've been building at Colby -- with the major pieces in place now I'm just tinkering so that the 3D pose results stay accurate when the subject is flipping, spinning, or six-stepping. And look, <a href="https://news.colby.edu/story/where-ai-meets-hip-hop/" target="_blank">Colby News did a story about it</a>!  <br><br>
-         Preparing for the Fall semester and the two courses I'll teach --  another iteration of "Mind Body & Machine" and a new one called "Bodies and Power"<br><br>
+        <p> Entering year 3 at Colby! Fall colors and fresh student energy to ease the goodbye to the summer sun <br><br>
+          Awaiting responses on several fronts: a paper about comparative complexity of agents (biological and artificial) is revised and resubmitted to Minds & Machines, "Six Forms of Dance Cognition" is under review at Phenomenology and the Cognitive Sciences, a chapter for Routledge about "Rethinking AGI" is on the way, and fingers remain crossed for an NSF proposal on simulating the whole nervous system of C. elegans <br><br>
+          The motion lab is coming together -- successfully set up a 3D pose pipeline in the performing arts center and now fine-tuning for accuracy while plotting out the first study. Speaking of motion capture, check out <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this new SciTube animation</a> about our computational kinematics paper!  <br><br>
+          This Fall I'm teaching another iteration of "Mind Body & Machine" -- functionalism and embodiment and AI, oh my -- and a new course called "Bodies and Power" thinking about how institutions and norms treat different bodies. <br><br>
 
         </p>
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/1bZT_UudLnk" frameborder="0" allowfullscreen></iframe>
+</div>
     </section>
 </div>
-
