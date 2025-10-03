@@ -59,10 +59,6 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             iframeSrc: "https://www.youtube.com/embed/1_Cgt09qLhg",
             description: "2015 Music video choreography | ♪♪ <em>Lean On Rangeela</em> (Major Lazer // Imran Khan) -- Jai Matt ft. Mugdha Hasabnis, Dr. Srimix, proDiJy"
-        },
-        {
-            iframeSrc: "https://www.youtube.com/embed/rYi7w4yOaEA",
-            description: "2011 choreography, video edit by Tom Maher | ♪♪ <em>Go Out and Love Someone</em> -- Pogo"
         }
     ];
 
