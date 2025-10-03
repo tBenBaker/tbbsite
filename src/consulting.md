@@ -4,7 +4,8 @@ title: Baker AI Strategy and Ethics Consulting
 permalink: /consulting/
 ---
 
-# Baker AI Strategy and Ethics Consulting
+# Baker Balanced Intelligence LLC 
+## AI Strategy and Ethics Consulting
 
 Professor of Philosophy at Colby College with expertise bridging AI systems, cognitive science, and ethics. PhD in Philosophy from the University of Pennsylvania, JD from Yale Law School. My research explores how we understand and model cognitive capacities in biological and artificial systems. This work informs approaches to responsible AI development and effective human-AI interaction.
 

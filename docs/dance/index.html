@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>Dance</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="Academic website of Ben Baker, focusing on philosophy of mind, cognitive science, AI, and computational approaches to dance and movement. Professor at Colby College. AI ethics and strategy consulting available.">
     <meta name="keywords" content="philosophy, AI ethics, cognitive science, dance, computational kinematics, Ben Baker, Colby College, AI consulting">
-    <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:title" content="Dance">
+    <meta property="og:description" content="Academic website of Ben Baker, focusing on philosophy of mind, cognitive science, AI, and computational approaches to dance and movement. Professor at Colby College. AI ethics and strategy consulting available.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}">
-    <meta property="og:image" content="{{ site.url }}/assets/img/og-image.jpg">
+    <meta property="og:url" content="https://tbenbaker.github.io/tbbsite">
+    <meta property="og:image" content="https://tbenbaker.github.io/tbbsite/assets/img/og-image.jpg">
     <script data-goatcounter="https://tbenbaker.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
     <script type="application/ld+json">
@@ -64,7 +64,35 @@
         </div>
     </header>
     <main>
-        {{ content | safe }}
+        <style>
+    #dance .video-container {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-bottom: 39.375%; /* 16:9 aspect ratio of 70% width: (9/16) * 70 */
+    }
+    
+    #dance .video-info {
+        max-width: 70%;
+        margin: 20px auto 0 auto;
+        text-align: center;
+    }
+</style>
+<section id="dance" class="section-dance">
+    <h2>Dance</h2>
+    <p>Dance is a major part of my life and identity. My primary background is in hip-hop choreography, popping, and house, and I like to explore many movement styles.</p>
+    <p><strong>A Dance Work by Me</strong></p>
+<p><div id="random-dance-video-container">
+</div></p>
+<p><br><br></p>
+</section>
+            <br><br>
+        </section>
+    </div>
+    <div class="right-column">
+        <!-- Empty right column for now - you can add content later -->
+    </div>
+</div>
+
     </main>
     <footer>
         <div class="footer-content">

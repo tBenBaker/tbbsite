@@ -44,20 +44,14 @@ title: Home
 
 </section>
 
-<section id="dance" class="section-dance">
-    <h2>Dance</h2>
-    <p>Dance is a major part of my life and identity. My primary background is in hip-hop choreography, popping, and house, and I like to explore many movement styles.</p>
-    <p><strong>A Dance Work by Me</strong></p>
-
-    <div id="random-dance-video-container">
-        </div>
-
-    <br><br>
-</section>
-
 <section id="cv" class="section-cv">
     <h2>CV</h2>
-    <p>You can view and download my full CV <a href="/assets/CV.pdf" target="_blank">here</a>.</p>
+    <p>You can view my CV below or <a href="/assets/CV.pdf" target="_blank">download the PDF here</a>.</p>
+    <div class="cv-embed">
+        <iframe src="/assets/CV.pdf" width="100%" height="800px" frameborder="0">
+            Your browser doesn't support PDF embedding. Please <a href="/assets/CV.pdf" target="_blank">download the PDF</a> to view it.
+        </iframe>
+    </div>
     <p>For inquiries about consulting, see <a href="/consulting/">this page</a>.</p>
     <br><br>
 </section>
@@ -75,6 +69,4 @@ title: Home
         </p>
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/1bZT_UudLnk" frameborder="0" allowfullscreen></iframe>
-</div>
-    </section>
 </div>
