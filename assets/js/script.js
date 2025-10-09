@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'cactus.JPG',
         'santorinisunrise.JPG',
         'santorinicoast1.jpg',
-        'santorinicoast2.jpg',
         'acropolis1.jpg',
         'santorinisunset2.jpg',
         'athensacademy1.JPG',
