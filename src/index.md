@@ -63,9 +63,9 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
-        <p> Entering year 3 at Colby! Fall colors and fresh student energy to ease the goodbye to the summer sun <br><br>
-          Awaiting responses on several fronts: a paper about comparative complexity of agents (biological and artificial) is revised and resubmitted to Minds & Machines, "Six Forms of Dance Cognition" is under review at Phenomenology and the Cognitive Sciences, a chapter for Routledge about "Rethinking AGI" is on the way, and fingers remain crossed for an NSF proposal on simulating the whole nervous system of C. elegans <br><br>
-          The motion lab is coming together -- successfully set up a 3D pose pipeline in the performing arts center and now fine-tuning for accuracy while plotting out the first study. Speaking of motion capture, check out <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this new SciTube animation</a> about our computational kinematics paper!  <br><br>
+        <p> Midway through the semester in year 3 at Colby, balancing classes, research, and the change of season.  <br><br>
+          Got some good research news: a paper on comparing complexity across biological and artificial agents (with Sonia Roberts) was accepted at <em>Minds & Machines</em>. "Six Forms of Dance Cognition" remains under review at <em>Phenomenology and the Cognitive Sciences</em>, and the chapter for Routledge on "Rethinking AGI: Beyond Anthropomorphism" is moving ahead. <br><br>
+          The motion lab continues to develop — we’ve set up a 3D pose pipeline in the performing arts center and are fine-tuning for accuracy while plotting the first study. Speaking of motion capture, check out <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this SciTube animation</a> about our computational kinematics paper. I’m also starting new conversations with colleagues from Penn about how to approach foundation modeling of movement. <br><br><br><br>
           This Fall I'm teaching another iteration of "Mind Body & Machine" -- functionalism and embodiment and AI, oh my -- and a new course called "Bodies and Power" thinking about how institutions and norms treat different bodies. <br><br>
 
         </p>
