@@ -64,7 +64,8 @@ title: Home
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
         <p> Midway through the semester in year 3 at Colby, balancing classes, research, and the change of season.  <br><br>
-          Got some good research news: a paper on comparing complexity across biological and artificial agents (with Sonia Roberts) was accepted at <em>Minds & Machines</em>. "Six Forms of Dance Cognition" remains under review at <em>Phenomenology and the Cognitive Sciences</em>, and the chapter for Routledge on "Rethinking AGI: Beyond Anthropomorphism" is moving ahead. <br><br>
+          Giving a new (for me) kind of lecture this month --- an all-school talk at Loomis Chaffee on their annual theme, "What does it mean to be human?"<br><br>  
+          Got some good research news: a paper on comparing complexity across biological and artificial agents (with Sonia Roberts) was accepted at <em>Minds & Machines</em> -- should be viewable online soon. Also excited for my chapter for Routledge on "Rethinking AGI: Beyond Anthropomorphism," which will come out when the coursebook is finished<br><br>
           The motion lab continues to develop — we’ve set up a 3D pose pipeline in the performing arts center and are fine-tuning for accuracy while plotting the first study. Speaking of motion capture, check out <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this SciTube animation</a> about our computational kinematics paper. I’m also starting new conversations with colleagues from Penn about how to approach foundation modeling of movement. <br><br><br><br>
           This Fall I'm teaching another iteration of "Mind Body & Machine" -- functionalism and embodiment and AI, oh my -- and a new course called "Bodies and Power" thinking about how institutions and norms treat different bodies. <br><br>
 
