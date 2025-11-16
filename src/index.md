@@ -19,7 +19,7 @@ title: Home
     <br><br>
     <strong>Selected Publications</strong><br>
     <p>Rethinking Artificial General Intelligence: Beyond Anthropomorphism (Invited chapter for <em>Introducing Philosophy of Mind, Today</em>, Routledge),<br>-- 2025 (forthcoming)</p>
-    <p><a href="https://link-springer-com.colby.idm.oclc.org/article/10.1007/s11023-025-09748-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20251113&utm_content=10.1007/s11023-025-09748-7" target="_blank">Understanding Complexity Through Affordances</a> (with Sonia Roberts),<br>-- 2025 (<em>Minds and Machines</em>)</p>
+    <p><a href="https://link.springer.com/article/10.1007/s11023-025-09748-7" target="_blank">Understanding Complexity Through Affordances</a> (with Sonia Roberts),<br>-- 2025 (<em>Minds and Machines</em>)</p>
     <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11098014/">Computational kinematics of dance: distinguishing Hip Hop genres</a> (with Tony Liu, Jordan Matelsky, Felipe Parodi, Brett Mensh, John Krakauer and Konrad Kording),<br>-- 2024 <em>Frontiers in Human Robotics and AI</em></p>
     <p><a href="https://philosophyofbrains.com/2024/01/23/commentary-on-favela-and-machery-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences.aspx">Commentary on Favela and Machery, "Investigating the concept of representation in neural and psychological sciences</a><br>-- 2023 <em>The Brains Blog</em></p>
     <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S1364661322002108?dgcid=author">Three Aspects of Representation in Neuroscience</a> (with Ben Lansdell and Konrad Kording),<br>-- 2022 <em>Trends in Cognitive Sciences</em></p>
@@ -64,7 +64,7 @@ title: Home
     <section id="currently" class="section-currently">
         <h2>About Now</h2>
         <p> Wrapping up Fall Semester #3 at Colby. Starting to miss basketball in the driveway, starting to dream of snowboarding.  <br><br>
-        My paper with Sonia Roberts on coparing complexity across biological and artificial agents was accepted at <em>Minds & Machines</em> -- you can check it out <a href="https://link-springer-com.colby.idm.oclc.org/article/10.1007/s11023-025-09748-7?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=oa_20251113&utm_content=10.1007/s11023-025-09748-7" target="_blank">here</a>!
+        My paper with Sonia Roberts on coparing complexity across biological and artificial agents was accepted at <em>Minds & Machines</em> -- you can check it out <a href="https://link.springer.com/article/10.1007/s11023-025-09748-7" target="_blank">here</a>!
         Also excited for my chapter for Routledge on "Rethinking AGI: Beyond Anthropomorphism," which will come out when the coursebook is finished.<br><br>
         Recently gave a new (for me) kind of presentation --- a convocation address at Loomis Chaffee School on their annual theme, "What does it mean to be human?" Still decided what to do with this piece...<br><br> 
         At this year's Eastern APA conference I'm commenting on a paper about Virtual Embodied AI -- expecting an interesting discussion! <br><br>  
