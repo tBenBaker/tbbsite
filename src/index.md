@@ -18,7 +18,7 @@ title: Home
     <h2>Research</h2>
     <br><br>
     <strong>Selected Publications</strong><br>
-    <p>Rethinking Artificial General Intelligence: Beyond Anthropomorphism (Invited chapter for <em>Introducing Philosophy of Mind, Today</em>, Routledge),<br>-- 2025 (forthcoming)</p>
+    <p>Rethinking Artificial General Intelligence: Beyond Anthropomorphism (Invited chapter for <em>Introducing Philosophy of Mind, Today</em>, Routledge),<br>-- 2026 (forthcoming)</p>
     <p><a href="https://link.springer.com/article/10.1007/s11023-025-09748-7" target="_blank">Understanding Complexity Through Affordances</a> (with Sonia Roberts),<br>-- 2025 <em>Minds and Machines</em></p>
     <p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11098014/">Computational kinematics of dance: distinguishing Hip Hop genres</a> (with Tony Liu, Jordan Matelsky, Felipe Parodi, Brett Mensh, John Krakauer and Konrad Kording),<br>-- 2024 <em>Frontiers in Human Robotics and AI</em></p>
     <p><a href="https://philosophyofbrains.com/2024/01/23/commentary-on-favela-and-machery-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences.aspx">Commentary on Favela and Machery, "Investigating the concept of representation in neural and psychological sciences</a><br>-- 2023 <em>The Brains Blog</em></p>
