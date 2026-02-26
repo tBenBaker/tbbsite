@@ -62,16 +62,16 @@ title: Home
 
 <div class="right-column">
     <section id="currently" class="section-currently">
-        <h2>About Now</h2>
-        <p> That's a wrap on my 5th semester at Colby! Glad to have time for research and reflection in January under the low sun, bare branches, and cold clarity.  <br><br>
-        New paper with Sonia Roberts on comparing complexity across biological and artificial agents now available at <a href="https://link.springer.com/article/10.1007/s11023-025-09748-7" target="_blank"><em>Minds & Machines</em></a>!
-        Looking forward to seeing my chapter on "Rethinking AGI: Beyond Anthropomorphism" come out soon for a Routledge coursebook <em>Introducting Philosophy of Mind, Today</em> <br><br>
-        Heading to this year's Eastern APA conference to give comments on a paper about Virtual Embodied AI -- expecting an interesting discussion! <br><br>  
-        Continuing some projects on computational analysis of dance and other complex human movement, working on some theory-side and some praxis-side problems.
-        The motion lab continues to develop. 3D pose pipeline in the performing arts center is up and running, with some tinkering to do to improve accuracy. I contributed to a recent <em>Dance Magazine</em> article on <a href="https://dancemagazine.com/ai-motion-capture-dance/#gsc.tab=0" target="_blank">AI-Assisted Motion-Capture Technology</a>. And check out <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this SciTube animation</a> about the "computational kinematics" paper from last year! <br><br>
-        I've got three courses on deck for the Spring: "Mind Body & Machine," "Philosophy of Dance" and "Philosophy of Science"<br><br>
+    <h2>About Now</h2>
+    <p> It's spring semester at Colby and I'm teaching three courses: "Mind, Body & Machine," which traces a path from Descartes and Ibn Sina through Turing and neural networks to algorithmic bias; "Philosophy of Dance," combining guided movement practice with readings in phenomenology, ontology, and the politics of the body; and "Philosophy of Science," covering the arc from Hume and Popper through mechanisms and modeling to situated knowledge and scientific values.
+    <br><br>
+    New paper with Sonia Roberts on comparing complexity across biological and artificial agents published in <a href="https://link.springer.com/article/10.1007/s11023-025-09748-7" target="_blank"><em>Minds & Machines</em></a>.
+    Also looking forward to seeing my chapter "Rethinking AGI: Beyond Anthropomorphism" come out soon in a Routledge coursebook, <em>Introducing Philosophy of Mind, Today</em>.
+    <br><br>
+    Continuing to develop computational approaches to analyzing dance and other complex human movement. I've got a high-fidelity markerless motion-capture setup running in the Gordon Center for Creative and Performing Arts, building on and extending the work from <a href="https://scitube.io/professor-ben-baker-how-computational-methods-can-distinguish-between-hip-hop-dance-styles/" target="_blank">this earlier study</a> with new data collection and analysis methods.
+    <br><br>
 
-        </p>
+    </p>
 <div class="video-container">
     <iframe src="https://www.youtube.com/embed/1bZT_UudLnk" frameborder="0" allowfullscreen></iframe>
 </div>
