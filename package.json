@@ -12,10 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^3.1.5"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-img": "^4.0.2",
     "luxon": "^1.28.0",
     "markdown-it": "^12.0.6",
