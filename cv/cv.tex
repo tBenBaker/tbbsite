@@ -1,0 +1,453 @@
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+\usepackage{needspace}
+\usepackage[normalem]{ulem}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt} % Addressing fancyhdr warning
+
+% Hyperlink setup
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting (kept close to original)
+\titleformat{\section}{
+  \vspace{0.5mm}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{0.5mm}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2}
+  }
+}
+
+% New command for service entries without position field
+\newcommand{\resumeServiceHeading}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1, #2} & \textit{\footnotesize{#3}} \\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}}
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+% Modified to remove dashes
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1, #3} & \textit{\footnotesize{#4}} \\
+        \footnotesize{#2}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+% For sub-bullets: use a smaller font and reduce extra vertical spacing.
+\newcommand{\resumeSubItem}[2]{{\small\resumeItem{#1}{#2}}\vspace{-2pt}}
+
+% Use simpler bullet symbols
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textendash}
+
+% Slightly reduced spacing in lists to keep things tight.
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm,rightmargin=2ex,topsep=0mm]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+
+% Remove extra vspace after lists
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+% cvsection: keep similar vertical spacing
+\newcommand{\cvsection}[1]{%
+  \vspace{2mm}
+  \begin{tcolorbox}
+    \textbf{\large #1}
+  \end{tcolorbox}
+  \vspace{1mm}
+}
+
+% cvsubsection: smaller heading for groupings inside a section
+% needspace prevents a subsection title from being orphaned at the bottom of a page
+\newcommand{\cvsubsection}[1]{%
+  \needspace{5\baselineskip}%
+  \vspace{2.5mm}\noindent{\large\bfseries\uline{#1}}\vspace{1mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options - using Palatino
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont} % Helvetica-like
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont} % Times-like
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont} % Palatino
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont} % Bookman
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont} % Avant Garde-like
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont} % Computer Modern Sans Serif
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont} % Quasi-Helvetica
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont} % Quasi-Palatino
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont} % Quasi-Times
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont}  % Charter
+
+\begin{document}
+\headerfontiii
+
+% Header (tighter spacing)
+\begin{center}
+    {\Huge\textbf{T. Ben Baker, PhD, JD}}\\[1mm]
+    \small{Assistant Professor, Colby College, Department of Philosophy}\\[1mm]
+    \small{\href{mailto:tbbaker@colby.edu}{tbbaker@colby.edu} $\,\vert\,$ \href{https://tbenbaker.com}{tbenbaker.com} $\,\vert\,$ ORCID: \href{https://orcid.org/0000-0003-0027-1372}{0000-0003-0027-1372} $\,\vert\,$ \href{https://scholar.google.com/citations?user=0kLaUbEAAAAJ&hl=en}{Google Scholar}}
+\end{center}
+\vspace{1mm}
+
+%-------------------------------------------
+\cvsection{ACADEMIC APPOINTMENTS}
+\resumeSubHeadingListStart
+\resumeSubheading
+    {Colby College}{Waterville, ME}
+    {Assistant Professor}{2023--present}
+\resumeItemListStart
+    \item Department of Philosophy, Davis AI Institute
+\resumeItemListEnd
+
+\resumeSubheading
+    {University of Pennsylvania}{Philadelphia, PA}
+    {Provost Postdoctoral Fellow}{2020--2023}
+\resumeItemListStart
+    \item Kording lab, Departments of Bioengineering and Neuroscience
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{EDUCATION}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {University of Pennsylvania}{Philadelphia, PA}
+    {PhD Philosophy}{2020}
+\resumeItemListStart
+    \item Dissertation: ``Cognition in Nature: Information, Explanation, Embodiment''
+    \item Social, Cognitive and Affective Neuroscience, Graduate Certificate
+    \item Dean's award for distinguished teaching by a graduate student
+\resumeItemListEnd
+
+\resumeSubheading
+    {Yale Law School}{New Haven, CT}
+    {JD} {2014}
+\resumeItemListStart
+    \item Substantial Analytic Writing on Mens Rea and Manslaughter 
+    \item Lowenstein International Human Rights Clinic
+\resumeItemListEnd
+
+\resumeSubheading
+    {Brown University}{Providence, RI}
+    {BA (Concentrations in Philosophy (honors) and Economics)}{2010}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{SELECTED PUBLICATIONS}
+
+\cvsubsection{Peer-Reviewed Articles \& Book Chapters}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Use and Usability: Concepts of Representation [\href{https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science}{link}]}{with R Lange, A Richmond, A Achille, R Cao, N Kriegeskorte, O Schwartz, X Pitkow, \textit{Neurons, Behavior, Data Analysis, and Theory}}{2026}{}
+
+\resumeProject
+    {Rethinking Artificial General Intelligence: Beyond Anthropomorphism}{Invited book chapter, \textit{Introducing Philosophy of Mind, Today} (eds. D Curry, L Daoust), Routledge}{2026}{}
+
+\resumeProject
+    {Understanding Complexity Through Affordances [\href{https://link.springer.com/article/10.1007/s11023-025-09748-7}{link}]}
+    {with Sonia Roberts, \textit{Minds and Machines}}
+    {2025}
+    {}
+
+\resumeProject
+    {Computational Kinematics of Dance: Distinguishing Hip Hop Genres [\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11098014/}{link}]}{with T Liu, J Matelsky, F Parodi, J Krakauer, K Kording, \textit{Frontiers in Human Robotics and AI}}{2024}{}
+
+\resumeProject
+    {Three Aspects of Representation in Neuroscience [\href{https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(22)00210-8}{link}]}{with B Lansdell and K Körding, \textit{Trends in Cognitive Sciences}}{2022}{}
+
+\resumeProject
+    {Creativity in AI-Dance Art [\href{http://star.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-3255/paper6.pdf}{link}]}{Proceedings of the International Conference on Computational Creativity}{2022}{}
+
+\resumeProject
+    {Natural Information, Factivity, and Nomicity [\href{https://link.springer.com/article/10.1007/s10539-021-09784-4}{link}]}{\textit{Biology \& Philosophy}}{2021}{}
+
+\resumeProject
+    {Referee Report of (hypothetical) Philosophy101 Textbook [\href{https://www.pdcnet.org/teachphil/content/teachphil_2021_0044_0002_0145_0157}{link}]}{\textit{Teaching Philosophy}}{2021}{}
+\resumeItemListStart
+    \item Spanish translation by Fredy H.P. Galindo, 2023, \textit{Cuestiones Filosofía}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\cvsubsection{Manuscripts Under Review}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Six Forms of Dance Cognition}{Under review at \textit{Phenomenology and the Cognitive Sciences}}{2025}{}
+
+\resumeSubHeadingListEnd
+
+\cvsubsection{Public Writing \& Reports}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Commentary on Favela and Machery [\href{https://philosophyofbrains.com/2024/01/23/commentary-on-favela-and-machery-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences.aspx}{link}]}{Symposium contribution, The Brains Blog}{2023}{}
+
+\resumeProject
+    {The Time is Ripe to Reverse Engineer an Entire Nervous System [\href{https://arxiv.org/abs/2308.06578}{link}]}{Position paper, Alliance for \textit{C. elegans} Neural Dynamics (ACeND)}{2023}{}
+
+\resumeProject
+    {What Does Engaged Philosophy Look Like? [\href{https://dailynous.com/2016/04/18/what-does-engaged-philosophy-look-like-guest-post/}{link}]}{with L Daoust and R Willison, guest post, DailyNous.com}{2016}{}
+
+\resumeProject
+    {Before Their Time: Challenges to the Prohibition Against Child Marriage in Sierra Leone [\href{https://plan-uk.org/file/beforetheirtimereportpdf/download?token=-jpyqRik}{link}]}{with A Elbogen, S Keene, Allard K. Lowenstein International Human Rights Clinic}{2013}{}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\vspace{.25cm}
+\cvsection{TEACHING}
+\small{\textit{Instructor of record for 19 semester-courses (250+ Colby students through Spring 2026). Mean instructor rating 4.45/5 across evaluated sections. Frequency in parentheses where $>1$.}}
+\vspace{2mm}
+
+\cvsubsection{Courses}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Colby College}{Waterville, ME}
+    {Assistant Professor, Department of Philosophy}{2023--present}
+\resumeItemListStart
+    \item All courses developed and first-taught by me
+    \item Central Philosophical Issues: Mind, Body \& Machine ($\times$6)
+    \item Philosophy of Dance ($\times$2)
+    \item AI and Human Values
+    \item Philosophy of Emotion
+    \item Philosophy of Cognitive Science
+    \item Philosophy of Science
+    \item Bodies and Power
+\resumeItemListEnd
+
+\resumeSubheading
+    {University of Pennsylvania}{Philadelphia, PA}
+    {Instructor of Record, Department of Philosophy}{2018--2020}
+\resumeItemListStart
+    \item Introduction to Philosophy ($\times$2)
+    \item Philosophy and Visual Perception
+    \item Ethics
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\cvsubsection{Student Advising}
+\resumeItemListStart
+    \item \textbf{Honors theses:} 1 in Philosophy; 1 in Computer Science (cross-departmental)
+    \item \textbf{Senior independent studies:} 2 in Philosophy
+    \item \textbf{January-term and summer mentees:} 4 students, including one externally placed at a neurocognitive science lab at ETH Z\"urich through faculty connection
+\resumeItemListEnd
+
+%-------------------------------------------
+\vspace{.25cm}
+\cvsection{SELECTED TALKS}
+
+\cvsubsection{Invited Talks}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {What Does It Mean to Be Human?}{Invited all-school speech, Loomis Chaffee School, Windsor CT}{2025}{}
+
+\resumeProject
+    {Rethinking Artificial General Intelligence}{Oberlin Colloquium in Philosophy, Oberlin College}{2025}{}
+
+\resumeProject
+    {Invited Commentator, Symposium on Technology and Cognition}{Southern Society for Philosophy and Psychology, annual meeting}{2025}{}
+
+\resumeProject
+    {Moving Between Genres: A Computational and Embodied Exploration of Dance}{Invited contributor, \textit{Slippage: 3D Humanities Series}, Northwestern University}{2025}{}
+
+\resumeProject
+    {Dance Machines!}{James Madison University, sponsored by the Philosophy \& Religion Department and JMU Dance Program}{2024}{}
+
+\resumeProject
+    {Six Forms of Dance Cognition}{Mind the Body, University of Utah}{2023}{}
+
+\resumeSubHeadingListEnd
+
+\cvsubsection{Conference Presentations \& Panels}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {So You Think AI Can Dance?}{Eye, Mind, and Image: Themes from Visual Studies, UPenn}{2022}{}
+
+\resumeProject
+    {Panelist, Symposium on Affirming Black Excellence in Neuroscience}{Cognitive Neuroscience Society (virtual)}{2021}{}
+
+\resumeProject
+    {Representation in Neuroscience}{Neuromatch Conference 3.0 (virtual)}{2020}{}
+
+\resumeProject
+    {The Factivity and Nomicity of Information}{Southern Society for Philosophy and Psychology, Cincinnati OH}{2019}{}
+
+\resumeProject
+    {Neural Dynamics and Inner Representations}{Conference on Representing Reality, SUNY Potsdam}{2017}{}
+
+\resumeProject
+    {Learning to Dance with Dynamic Systems}{Graduate BEN Talks, UPenn (internal)}{2017}{}
+
+\resumeProject
+    {Weakness of Will in Desire-First Accounts of Rational Action}{Philosophers' Cocoon Conference, Tampa FL}{2015}{}
+
+\resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+\cvsection{SCIENTIFIC COLLABORATIONS}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Computational Kinematics of Human Movement: Motion Capture \& Data Collection (Kinelab)}{Colby College}{2024--present}{}
+\resumeItemListStart
+    \item Designed and built a markerless motion-capture system at Colby; data collection ongoing in collaboration with Veronica Romero (Colby Psychology) under a joint umbrella IRB
+\resumeItemListEnd
+
+\resumeProject
+    {Computational Kinematics of Human Movement: Movement Modeling (KineTrace)}{Colby College}{2025--present}{}
+\resumeItemListStart
+    \item Developing self-supervised next-window-prediction models trained on a custom biomechanical featurization of human movement (precursor: \textit{Frontiers} 2024); early-stage collaboration with Amy Laviers (Robotics, Automation, and Dance Lab, Germantown PA)
+\resumeItemListEnd
+
+\resumeProject
+    {Use and Usability: Concepts of Representation}{CCN Generative Adversarial Collaboration}{2022--2026}{}
+\resumeItemListStart
+    \item Collaborative project examining representation across Philosophy, Neuroscience, Cognitive Science, and Computer Science, with Richard D. Lange, Andrew Richmond, Odelia Schwartz, Alessandro Achille, Xaq Pitkow, Rosa Cao, Nikolaus Kriegeskorte
+\resumeItemListEnd
+
+\resumeProject
+    {Alliance for \textit{C. elegans} Neural Dynamics (ACeND)}{Project Member, Colby College}{2024--2025}{}
+\resumeItemListStart
+    \item Contributing theoretical insights for an interdisciplinary, nationwide consortium working towards simulating C. elegans from molecules to behavior
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{PROFESSIONAL SERVICE \& LEADERSHIP}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Departmental/College Service}{}
+    {Colby College}{2023--present}
+\resumeItemListStart
+    \item \textbf{Department of Philosophy} (2023--present): Clark Award and Pepper Prize judging (reading and scoring senior essays, coordinating prize text, presenting at the awards banquet); co-organizing the annual Philosophy Department Awards Banquet; reviewing honors-thesis proposals for the Honors Program
+    \item \textbf{Faculty Advisory Committee, Davis Institute for Artificial Intelligence} (2023--present): Planning around Colby's AI policies and tools, event organization
+    \item \textbf{Search Committees} (2023--2026): three for hires in Philosophy (one TT, two VAP); one for the Director of the Davis AI Institute; one as external reviewer for Psychology
+    \item \textbf{Lunder Institute for American Art, Faculty Advisory Group} (2024--2025): Planning and participating in initiatives around integrating museum resources and visiting fellows into the work and teaching of Colby faculty, handling internal grant funding  
+    \item \textbf{Science Technology and Society Faculty Advisory Board} (2023--2025): Contributing to initiatives for the STS department around student participation, course options, and internal funding
+    \item \textbf{Reuman Reading Group Organizer} (2024--2025): communications, documentation, and publicity for Colby's 27-year-running faculty-student reading group in philosophy
+\resumeItemListEnd
+
+\resumeSubheading
+    {Conference/Event Organization}{}
+    {}{2018--present}
+\resumeItemListStart
+    \item \textbf{Philosophy Symposium} (Spring 2025, \textit{Colby}): Organized annual public lecture on Ethics of Social AI, with student participation, sponsored by the Philosophy department and the Davis AI institute.
+    \item \textbf{The Flavor Continues Residency Organizer} (2024, \textit{Colby}): Coordinated residency for a Boston-based Hip Hop non-profit, offering community workshops, guest teaching in Colby dance classes, and a performance
+    \item \textbf{Birge Lecture Co-organizer} (Fall 2023, \textit{Colby}): Helped select speaker and support publicity for Colby's annual Kingsley Birge Memorial Lecture in Sociology
+    \item \textbf{Philosophy and Engagement Conference Co-organizer} (2019, \textit{UPenn}): Collaborated on planning and executing an interdisciplinary conference exploring the intersection of philosophy and community engagement
+    \item \textbf{Indian Philosophy Reading Group} (2019, \textit{UPenn}): Managed communications around logistics and selecting readings for graduate student discussion group
+    \item \textbf{Admitted Student Weekend Coordinator} (2018, \textit{UPenn}): Organized accommodations, planned activities, and facilitated interactions between faculty and prospective graduate students during recruitment weekend
+\resumeItemListEnd
+
+\resumeSubheading
+    {Peer Review}{}
+    {}{ongoing}
+\resumeItemListStart
+    \item \textbf{Journal reviewer:} \textit{Philosophical Psychology}; \textit{Philosophy of Science}; \textit{IEEE Robotics and Automation Magazine}; \textit{Dance Research Journal}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
