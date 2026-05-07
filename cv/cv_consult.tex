@@ -1,0 +1,229 @@
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome5}
+\usepackage{needspace}
+\usepackage[normalem]{ulem}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+
+% Page layout
+\setlength{\multicolsep}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\footskip}{5pt}
+
+% Hyperlink setup
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings
+\usepackage[most]{tcolorbox}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=gray!20,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=-2mm,
+    boxsep=4pt,
+    arc=0pt,outer arc=0pt,
+}
+
+\urlstyle{same}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{0.5mm}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{0.5mm}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1, #3} & \textit{\footnotesize{#4}} \\
+        \footnotesize{#2}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{{\small\resumeItem{#1}{#2}}\vspace{-2pt}}
+
+\renewcommand{\labelitemi}{\textbullet}
+\renewcommand{\labelitemii}{\textendash}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\newcommand{\cvsection}[1]{%
+  \vspace{2mm}
+  \begin{tcolorbox}
+    \textbf{\large #1}
+  \end{tcolorbox}
+  \vspace{1mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont}
+
+\begin{document}
+\headerfontiii
+
+% Header
+\begin{center}
+    {\Huge\textbf{T. Ben Baker, PhD, JD}}\\[1mm]
+    \small{Baker Balanced Intelligence LLC $\,\vert\,$ AI Strategy \& Ethics Consulting}\\[1mm]
+    \small{\href{mailto:tbbaker@colby.edu}{tbbaker@colby.edu} $\,\vert\,$ \href{https://bakerintel.com}{bakerintel.com} $\,\vert\,$ \href{https://tbenbaker.com}{tbenbaker.com}}
+\end{center}
+\vspace{1mm}
+
+\small{Professor of Philosophy (Colby College) and founder of Baker Balanced Intelligence LLC. Research on cognitive representation, embodied AI, and human movement informs practical approaches to responsible AI development and human-centered system design.}
+\vspace{1mm}
+
+%-------------------------------------------
+\cvsection{SERVICES}
+\resumeItemListStart
+    \item \textbf{AI System Design \& Use} --- Leverage philosophy, cognitive and computational science to inform AI development, from conceptual frameworks to implementation
+    \item \textbf{Movement Intelligence \& Embodied AI} --- Apply computational movement analysis and embodied cognition to robotics, healthcare, and HCI; includes custom markerless motion-capture systems and self-supervised movement modeling
+    \item \textbf{Interdisciplinary Research Partnerships} --- Bridge philosophy, neuroscience, and AI through collaborative projects, NSF proposals, and industry R\&D
+    \item \textbf{AI Ethics \& Governance Advisory} --- Develop ethical guidelines and governance structures grounded in philosophical and technical expertise
+    \item \textbf{Strategic AI Education \& Communication} --- Translate complex AI concepts for executive teams, boards, and stakeholders
+\resumeItemListEnd
+
+%-------------------------------------------
+\cvsection{SELECTED PUBLICATIONS}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Use and Usability: Concepts of Representation [\href{https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science}{link}]}{with R Lange, A Richmond, A Achille, R Cao, N Kriegeskorte, O Schwartz, X Pitkow, \textit{Neurons, Behavior, Data Analysis, and Theory}}{2026}{}
+
+\resumeProject
+    {Rethinking Artificial General Intelligence: Beyond Anthropomorphism}{Invited book chapter, \textit{Introducing Philosophy of Mind, Today} (eds. D Curry, L Daoust), Routledge}{2026}{}
+
+\resumeProject
+    {Understanding Complexity Through Affordances [\href{https://link.springer.com/article/10.1007/s11023-025-09748-7}{link}]}{with Sonia Roberts, \textit{Minds and Machines}}{2025}{}
+
+\resumeProject
+    {Computational Kinematics of Dance: Distinguishing Hip Hop Genres [\href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11098014/}{link}]}{with T Liu, J Matelsky, F Parodi, J Krakauer, K Kording, \textit{Frontiers in Human Robotics and AI}}{2024}{}
+
+\resumeProject
+    {Three Aspects of Representation in Neuroscience [\href{https://www.cell.com/trends/cognitive-sciences/abstract/S1364-6613(22)00210-8}{link}]}{with B Lansdell and K K\"ording, \textit{Trends in Cognitive Sciences}}{2022}{}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{SELECTED INVITED TALKS}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {What Does It Mean to Be Human?}{Invited all-school speech, Loomis Chaffee School, Windsor CT}{2025}{}
+
+\resumeProject
+    {Rethinking Artificial General Intelligence}{Oberlin Colloquium in Philosophy, Oberlin College}{2025}{}
+
+\resumeProject
+    {Moving Between Genres: A Computational and Embodied Exploration of Dance}{\textit{Slippage: 3D Humanities Series}, Northwestern University}{2025}{}
+
+\resumeProject
+    {Dance Machines!}{James Madison University}{2024}{}
+
+\resumeProject
+    {Six Forms of Dance Cognition}{Mind the Body, University of Utah}{2023}{}
+
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{BACKGROUND}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+    {Colby College}{Waterville, ME}
+    {Assistant Professor of Philosophy}{2023--present}
+\resumeItemListStart
+    \item Davis Institute for Artificial Intelligence
+\resumeItemListEnd
+
+\resumeSubheading
+    {University of Pennsylvania}{Philadelphia, PA}
+    {Provost Postdoctoral Fellow}{2020--2023}
+\resumeItemListStart
+    \item Kording lab, Departments of Bioengineering and Neuroscience
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{1mm}
+\noindent\textbf{Education:} PhD Philosophy, University of Pennsylvania (2020) $\;\cdot\;$ JD, Yale Law School (2014) $\;\cdot\;$ BA Philosophy \& Economics, Brown University (2010)
+
+%-------------------------------------------
+\cvsection{CURRENT PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {Kinelab --- Motion Capture \& Movement Modeling}{Colby College; collaborators: V. Romero (Psychology), A. Laviers (RAD-Lab)}{2024--present}{}
+\resumeItemListStart
+    \item Markerless motion-capture system; KineTrace self-supervised models for human movement analysis
+\resumeItemListEnd
+
+\resumeProject
+    {Use and Usability: Concepts of Representation}{CCN Generative Adversarial Collaboration}{2022--2026}{}
+\resumeItemListStart
+    \item Cross-disciplinary project on shared foundations for AI and biological representation
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
