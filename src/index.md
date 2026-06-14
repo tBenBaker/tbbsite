@@ -63,14 +63,20 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
     <h2>About Now</h2>
-    <p> Turning the page on another year at Colby. I taught three courses this term — one weaving together classical philosophy of mind foundations with questions about embodiment and AI, one exploring the philosophy of dance -- meaning of movement, aesthetics, politics of the body -- with movement practice a part of every class period, and one in philosophy of science from traditional epistemology to situated knowledge and scientific values. I learned a lot from each of them, and now I'll have a year of sabbatical to let the teaching percolate and focus on research. Excited to dig into some work on the moving mind and philosophy of AI.
+    <p> Turning the page on another year at Colby. I taught three courses this term — one weaving together classical philosophy of mind foundations with questions about embodiment and AI, one exploring the philosophy of dance -- meaning of movement, aesthetics, politics of the body -- with movement practice a part of every class period, and one in philosophy of science from traditional epistemology to situated knowledge and scientific values. I learned a lot from each of them, and now my sabbatical year has just begun — time to let the teaching percolate and turn back to research. I'm grateful to have been awarded a Responsible AI Grant from Colby's Davis Institute for Artificial Intelligence to pursue what I think of as <em>responsible computational kinematics</em>: pairing high-fidelity movement analysis with hard questions about algorithmic bias, interpretability, and movement privacy. I'm looking forward to spending the year on that, alongside some writing on dance and cognition and on the science of minds and machines.
     <br><br>
     On the research front, a big collaborative paper — <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank"><em>Use and Usability: Concepts of Representation in Philosophy, Neuroscience, Cognitive Science, and Computer Science</em></a> — is finally out at <em>Neurons, Behavior, Data Analysis, and Theory</em>. It grew out of a Generative Adversarial Collaboration at CCN and is co-authored across philosophy, computer science, cognitive science, and neuroscience. The paper organizes existing views on neural representation into three levels: representations as carrying information, as usable, and as actually used.
-    <br><br>
+    </p>
+
+<figure class="paper-figure">
+    <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">
+        <img src="/assets/img/use-rep-fig.png" alt="Figure from 'Use and Usability': three levels of thinking about neural representation — as carrying information (Level 1), as usable (Level 2), and as actually used (Level 3).">
+    </a>
+    <figcaption>From <em>Use and Usability</em> (NBDT, 2026). <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">Read the paper →</a></figcaption>
+</figure>
+
+    <p>
     I've also started collecting markerless motion-capture data in the Gordon Center for Creative and Performing Arts, and in parallel have been building self-supervised models of movement from existing 3D pose data — with some exciting early results. More on that soon.
     <br><br>
 
     </p>
-<div class="video-container">
-    <iframe src="https://www.youtube.com/embed/1bZT_UudLnk" frameborder="0" allowfullscreen></iframe>
-</div>

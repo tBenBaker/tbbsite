@@ -258,6 +258,28 @@ a:hover {
     margin: 0 0 20px 0; /* Add margin to space out from the video container */
 }
 
+.paper-figure {
+    margin: 0 0 20px 0;
+}
+
+.paper-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.paper-figure figcaption {
+    color: #fff;
+    font-size: 0.95em;
+    margin-top: 8px;
+}
+
+.paper-figure figcaption a {
+    color: #fff;
+}
+
 .section-cv {
     padding: 20px;
     background-color: transparent;
