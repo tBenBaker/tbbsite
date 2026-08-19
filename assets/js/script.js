@@ -82,3 +82,13 @@ document.addEventListener('DOMContentLoaded', function() {
         console.error("No dance videos available");
     }
 });
+// FSM viz story: click-to-play with sound; only one clip plays at a time.
+document.addEventListener('DOMContentLoaded', function () {
+    const vizVids = document.querySelectorAll('.viz-block video');
+    if (!vizVids.length) return;
+    vizVids.forEach(v => {
+        v.addEventListener('play', () => {
+            vizVids.forEach(o => { if (o !== v) o.pause(); });
+        });
+    });
+});
