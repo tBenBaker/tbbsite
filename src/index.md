@@ -8,7 +8,7 @@ title: Home
 <section id="about" class="section-about">
     <h2>About Me</h2>
     <p>
-    I am an Assistant Professor of Philosophy at Colby College and affiliated faculty at the Davis Institute for Artificial Intelligence. My research explores how we understand and model cognitive capacities, and how we understand and interact with artificial intelligence. One strand of my work focuses on internal representations that structure the behavior of biological and artificial systems. Another focuses on how embodiment and expressive movement shape cognition. I have a special interest in studying the mind in dance, and have developed a novel approach to the computational analysis of human movement. I regularly collaborate across disciplines, contributing philosophical perspectives to projects working to simulate neural systems and apply new machine learning methods. At Colby, I teach courses in philosophy of mind, AI, cognitive science, and dance. Before joining the Colby faculty, I completed a postdoctoral fellowship in computational neuroscience at UPenn, where I also received my PhD in Philosophy, and I hold a JD from Yale Law School.
+    I am an Assistant Professor of Philosophy at Colby College and affiliated faculty at the Davis Institute for Artificial Intelligence. My research is in philosophy of mind, cognitive science and artificial intelligence. One strand of my work focuses on internal representations that shape the behavior of biological and artificial systems. Another focuses on how embodiment and expressive movement shape cognition, looking especially at dance. I have also been developing techniques for computational analysis of human movement, using pose estimation data and machine learning. At Colby, I teach courses in philosophy of mind, AI, cognitive science, and dance. Before joining the Colby faculty, I completed a postdoctoral fellowship in computational neuroscience at UPenn, where I also received my PhD in Philosophy, and I hold a JD from Yale Law School.
     <br><br>
 
     </p>
@@ -64,20 +64,45 @@ title: Home
 <div class="right-column">
     <section id="currently" class="section-currently">
     <h2>About Now</h2>
-    <p> Turning the page on another year at Colby. I taught three courses this term: one weaving together classical philosophy of mind foundations with questions about embodiment and AI, one exploring the philosophy of dance (with movement practice a part of every class period!), and one in philosophy of science from traditional epistemology to situated knowledge and scientific values. I learned a lot from each of them, and now my sabbatical year has just begun — time to focus on research. I'm grateful to have been awarded a Responsible AI Grant from Colby's Davis Institute for Artificial Intelligence to pursue what I think of as <em>responsible computational kinematics</em>: pairing high-fidelity movement analysis with questions about algorithmic bias, interpretability, and movement privacy. I'm looking forward to spending a good chunk of the year on that, alongside some writing on dance and cognition and on the science of minds and machines.
+    <p> 
+    
+    I'm on sabbatical! Glad for the chance to push forward a few research projects and take a brief step back from teaching. 
     <br><br>
-    On the research front, a big collaborative paper — <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank"><em>Use and Usability: Concepts of Representation in Philosophy, Neuroscience, Cognitive Science, and Computer Science</em></a> — is finally out at <em>Neurons, Behavior, Data Analysis, and Theory</em>. It grew out of a Generative Adversarial Collaboration at CCN and is co-authored across philosophy, computer science, cognitive science, and neuroscience. The paper organizes existing views on neural representation into three levels: representations as carrying information, as usable, and as actually used.
-    </p>
-
-<figure class="paper-figure">
-    <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">
-        <img src="/assets/img/use-rep-fig.png" alt="Figure from 'Use and Usability': three levels of thinking about neural representation — as carrying information (Level 1), as usable (Level 2), and as actually used (Level 3).">
-    </a>
-    <figcaption>From <em>Use and Usability</em> (NBDT, 2026). <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">Read the paper →</a></figcaption>
-</figure>
-
+    Proofs just arrived for "Rethinking AGI: Beyond Anthropomorphism," a chapter for a Routledge coursebook in philosophy of mind. And now out in <em>Neurons, Behavior, Data Analysis, and Theory</em>, <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">the results of a long-running collaboration</a> across philosophy, neuroscience, cognitive science and computer science on how "use and usability" factor into these fields' concepts of representation. 
+    <br><br>
+    I'm also closing in on a submission ready version of "Six Dimensions of Dance Cognition" -- an idea that has been kicking around in some form for years. It offers an account of distinct kinds of thinking that dancers rely on, speaking simultaneously to questions in dance scholarship and questions about embodied and enactive cognition, grounded mainly in Black social dance styles.  
+    <br>
+    In parallel with the theoretical work, I'm continuing to develop computational analyses of dance and movement. Using the markerless motion capture system I set up at Colby, I recorded some dancers performing a short piece I choreographed in the Spring. I'm investigating the data, working toward some new perspectives on movement learning and style -- you can get a first look below.       
+    
     <p>
-    I've also started collecting markerless motion-capture data in the Gordon Center for Creative and Performing Arts, and in parallel have been building self-supervised models of movement from existing 3D pose data — with some exciting early results. More on that soon.
-    <br><br>
+
 
     </p>
+<section id="dance-viz" class="section-vizstory">
+    <h2>Dance Movement Feature Comparison</h2>
+    <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s).</p>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_lagtrails.mp4" poster="/assets/fsm/S07a2_lagtrails_poster.jpg" controls preload="none" playsinline aria-label="Timing comparison: body turns red when late, blue when early, with comet trails behind whoever is ahead"></video>
+        <figcaption><strong>Timing.</strong> The body stays green when she is locked in with the choreographer, turns red when she runs late and blue when she runs early. Whoever is ahead leaves brief comet-trails behind their joints — the path the other dancer hasn't caught up to yet.</figcaption>
+    </figure>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_balltravel.mp4" poster="/assets/fsm/S07a2_balltravel_poster.jpg" controls preload="none" playsinline aria-label="Level and travel comparison: two dots track each dancer's level; a floor bar lights up during traveling moves"></video>
+        <figcaption><strong>Level &amp; travel.</strong> The two dots on the left rise and fall with each dancer's level — gray for the choreographer, green for the student — showing who gets low, and when. The bar at the bottom lights up during traveling moves: red means the student covers less floor than the choreography asks, blue means more.</figcaption>
+    </figure>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_angles.mp4" poster="/assets/fsm/S07a2_angles_poster.jpg" controls preload="none" playsinline aria-label="Pose comparison: student skeleton flushes red where joint angles stray from the choreographer's"></video>
+        <figcaption><strong>Pose.</strong> The student's pose shades red when her joint angles stray furthest from the choreographer's. The red marks above the timeline flag the hardest passages, labeled by their count in the music. Choreographer is recentered at the student's position each frame, abstracting away global position.</figcaption>
+    </figure>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_2turn.mp4" poster="/assets/fsm/S07a2_2turn_poster.jpg" controls preload="none" playsinline aria-label="Facing comparison: dials show which way each body and head faces, arcs redden as the gap widens"></video>
+        <figcaption><strong>Facing.</strong> The lower dial shows which way each body faces; the upper dial does the same for the head. The green arm is the student's direction and the arc sweeps to the choreographer's — faint gray when they agree, shading to red as the gap widens, as on a turn started late or cut short.</figcaption>
+    </figure>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_lower.mp4" poster="/assets/fsm/S07a2_lower_poster.jpg" controls preload="none" playsinline aria-label="Footwork comparison: ghost pinned to the student's hips, red arrows point from drifting knees and feet toward the choreographer's"></video>
+        <figcaption><strong>Footwork.</strong> A close-up comparison of legs and feet. Whenever a knee or foot drifts too far, a red arrow points from the student's joint toward the choreographer's. Choreographer is recentered at the student's position each frame, abstracting away global position. </figcaption>
+    </figure>
+    <figure class="viz-block">
+        <video src="/assets/fsm/S07a2_2expandc.mp4" poster="/assets/fsm/S07a2_2expandc_poster.jpg" controls preload="none" playsinline aria-label="Expansion comparison: the choreographer's reach is a faint shell and the student's arrows poke past it or fall inside it"></video>
+        <figcaption><strong>Expansion.</strong> The faint gray shell is the choreographer's shape — how far she reaches out from her own center — and the student's arrows share that center, poking past the shell when she opens out further and falling inside it when she stays gathered. Both are measured relative to each dancer's own body size. The bar at the right tracks the gap: red and up when the student is more expanded, blue and down when less.</figcaption>
+    </figure>
+</section>
