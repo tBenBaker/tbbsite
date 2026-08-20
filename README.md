@@ -109,7 +109,6 @@ package.json               # Dependencies and build scripts
 - Proper heading hierarchy
 
 ### Performance
-- Image optimization through @11ty/eleventy-img
 - Font loading from Google Fonts
 - Minimal JavaScript footprint
 
@@ -133,7 +132,6 @@ package.json               # Dependencies and build scripts
 ## Dependencies
 - Eleventy static site generator
 - Luxon for date handling
-- @11ty/eleventy-img for image processing
 - markdown-it plugins for enhanced Markdown
 - Font Awesome for icons
 - Google Fonts (Roboto, Merriweather)

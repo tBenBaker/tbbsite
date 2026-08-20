@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Eleventy cache
+.cache/
+.eleventy-cache/
+
+# WSL / Windows download metadata
+*:Zone.Identifier
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
