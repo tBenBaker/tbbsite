@@ -82,27 +82,68 @@ title: Home
     <h2>Dance Movement Feature Comparison</h2>
     <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s).</p>
     <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_lagtrails.mp4" poster="/assets/fsm/S07a2_lagtrails_poster.jpg" controls preload="none" playsinline aria-label="Timing comparison: body turns red when late, blue when early, with comet trails behind whoever is ahead"></video>
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_lagtrails.mp4" poster="/assets/fsm/S07a2_lagtrails_poster.jpg" controls preload="none" playsinline aria-label="Timing comparison: body turns red when late, blue when early, with comet trails behind whoever is ahead"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Timing.</strong> The body stays green when she is locked in with the choreographer, turns red when she runs late and blue when she runs early. Whoever is ahead leaves brief comet-trails behind their joints — the path the other dancer hasn't caught up to yet.</figcaption>
     </figure>
-    <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_balltravel.mp4" poster="/assets/fsm/S07a2_balltravel_poster.jpg" controls preload="none" playsinline aria-label="Level and travel comparison: two dots track each dancer's level; a floor bar lights up during traveling moves"></video>
+    <figure class="viz-block viz-tall">
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_balltravel.mp4" poster="/assets/fsm/S07a2_balltravel_poster.jpg" controls preload="none" playsinline aria-label="Level and travel comparison: two dots track each dancer's level; a floor bar lights up during traveling moves"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Level &amp; travel.</strong> The two dots on the left rise and fall with each dancer's level — gray for the choreographer, green for the student — showing who gets low, and when. The bar at the bottom lights up during traveling moves: red means the student covers less floor than the choreography asks, blue means more.</figcaption>
     </figure>
     <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_angles.mp4" poster="/assets/fsm/S07a2_angles_poster.jpg" controls preload="none" playsinline aria-label="Pose comparison: student skeleton flushes red where joint angles stray from the choreographer's"></video>
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_angles.mp4" poster="/assets/fsm/S07a2_angles_poster.jpg" controls preload="none" playsinline aria-label="Pose comparison: student skeleton flushes red where joint angles stray from the choreographer's"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Pose.</strong> The student's pose shades red when her joint angles stray furthest from the choreographer's. The red marks above the timeline flag the hardest passages, labeled by their count in the music. Choreographer is recentered at the student's position each frame, abstracting away global position.</figcaption>
     </figure>
     <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_2turn.mp4" poster="/assets/fsm/S07a2_2turn_poster.jpg" controls preload="none" playsinline aria-label="Facing comparison: dials show which way each body and head faces, arcs redden as the gap widens"></video>
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_2turn.mp4" poster="/assets/fsm/S07a2_2turn_poster.jpg" controls preload="none" playsinline aria-label="Facing comparison: dials show which way each body and head faces, arcs redden as the gap widens"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Facing.</strong> The lower dial shows which way each body faces; the upper dial does the same for the head. The green arm is the student's direction and the arc sweeps to the choreographer's — faint gray when they agree, shading to red as the gap widens, as on a turn started late or cut short.</figcaption>
     </figure>
     <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_lower.mp4" poster="/assets/fsm/S07a2_lower_poster.jpg" controls preload="none" playsinline aria-label="Footwork comparison: ghost pinned to the student's hips, red arrows point from drifting knees and feet toward the choreographer's"></video>
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_lower.mp4" poster="/assets/fsm/S07a2_lower_poster.jpg" controls preload="none" playsinline aria-label="Footwork comparison: ghost pinned to the student's hips, red arrows point from drifting knees and feet toward the choreographer's"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Footwork.</strong> A close-up comparison of legs and feet. Whenever a knee or foot drifts too far, a red arrow points from the student's joint toward the choreographer's. Choreographer is recentered at the student's position each frame, abstracting away global position. </figcaption>
     </figure>
     <figure class="viz-block">
-        <video src="/assets/fsm/S07a2_2expandc.mp4" poster="/assets/fsm/S07a2_2expandc_poster.jpg" controls preload="none" playsinline aria-label="Expansion comparison: the choreographer's reach is a faint shell and the student's arrows poke past it or fall inside it"></video>
+        <div class="viz-stagewrap">
+        <video class="viz-main" src="/assets/fsm/S07a2_2expandc.mp4" poster="/assets/fsm/S07a2_2expandc_poster.jpg" controls preload="none" playsinline aria-label="Expansion comparison: the choreographer's reach is a faint shell and the student's arrows poke past it or fall inside it"></video>
+        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
+        </div>
         <figcaption><strong>Expansion.</strong> The faint gray shell is the choreographer's shape — how far she reaches out from her own center — and the student's arrows share that center, poking past the shell when she opens out further and falling inside it when she stays gathered. Both are measured relative to each dancer's own body size. The bar at the right tracks the gap: red and up when the student is more expanded, blue and down when less.</figcaption>
     </figure>
+<script>
+(function(){
+  // Camera PiP — slaved to each comparison clip. The chorcam asset is trimmed
+  // so its clock is 1:1 with the clips'; LEAD nudges it (+ = camera later).
+  var OUTRO=23.90, EPS=0.15, LEAD=0.00;
+  document.querySelectorAll('.viz-stagewrap').forEach(function(w){
+    var main=w.querySelector('.viz-main'), pip=w.querySelector('.viz-pip');
+    if(!main||!pip)return;
+    function align(){
+      var want=main.currentTime+LEAD;
+      if(Math.abs(pip.currentTime-want)>EPS)pip.currentTime=want;
+    }
+    main.addEventListener('play',function(){if(main.currentTime<OUTRO){align();pip.play();}});
+    main.addEventListener('pause',function(){pip.pause();});
+    main.addEventListener('ended',function(){pip.pause();});
+    main.addEventListener('seeked',align);
+    main.addEventListener('timeupdate',function(){
+      if(main.currentTime>=OUTRO){pip.classList.add('off');if(!pip.paused)pip.pause();}
+      else{pip.classList.remove('off');align();if(!main.paused&&pip.paused)pip.play();}
+    });
+  });
+})();
+</script>
 </section>
