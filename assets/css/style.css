@@ -562,3 +562,30 @@ a:hover {
     font-size: 0.95em;
     margin-top: 8px;
 }
+
+/* Camera PiP: the choreographer on camera, synced with the comparison clip.
+   Sits in the empty lower-left of the 3D pane; .viz-tall (balltravel's
+   two-strip 1260x1260 layout) needs a higher perch. Fades out during the
+   quarter-speed replay (.off, set by JS past t=23.90). */
+.viz-stagewrap {
+    position: relative;
+}
+.viz-block video.viz-pip {
+    position: absolute;
+    left: 2.5%;
+    bottom: 23%;
+    width: 24%;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.55);
+    background: #14161d;
+    pointer-events: none;
+    transition: opacity 0.35s;
+}
+.viz-tall video.viz-pip {
+    bottom: 39%;
+    width: 22%;
+}
+.viz-block video.viz-pip.off {
+    opacity: 0;
+}

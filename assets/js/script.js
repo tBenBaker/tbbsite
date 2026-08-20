@@ -84,7 +84,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 // FSM viz story: click-to-play with sound; only one clip plays at a time.
 document.addEventListener('DOMContentLoaded', function () {
-    const vizVids = document.querySelectorAll('.viz-block video');
+    // .viz-pip camera insets are excluded: they are slaved to their own
+    // block's main video (see the sync script in index.md) — including them
+    // here made their 'play' event pause the very main that started them.
+    const vizVids = document.querySelectorAll('.viz-block video:not(.viz-pip)');
     if (!vizVids.length) return;
     vizVids.forEach(v => {
         v.addEventListener('play', () => {
