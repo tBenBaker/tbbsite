@@ -10,6 +10,14 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat("dd LLL yyyy");
   });
 
+  // Date filter (yyyy-LL-dd by default; used by sitemap.njk)
+  eleventyConfig.addFilter("date", (dateObj, format = "yyyy-LL-dd") => {
+    const dt = (!dateObj || dateObj === "now")
+      ? DateTime.utc()
+      : DateTime.fromJSDate(new Date(dateObj), { zone: "utc" });
+    return dt.toFormat(format);
+  });
+
   // Slug filter
   eleventyConfig.addFilter("slug", (input) => {
     return slugify(input, { lower: true, strict: true });
