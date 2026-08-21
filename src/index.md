@@ -49,13 +49,7 @@ title: Home
 
 <section id="cv" class="section-cv">
     <h2>CV</h2>
-    <p>You can view my CV below or <a href="/assets/CV.pdf" target="_blank">download the PDF here</a>.</p>
-    <div class="cv-embed">
-        <iframe src="/assets/CV.pdf" width="100%" height="800px" frameborder="0">
-            Your browser doesn't support PDF embedding. Please <a href="/assets/CV.pdf" target="_blank">download the PDF</a> to view it.
-        </iframe>
-    </div>
-    <p>For inquiries about consulting, see <a href="/consulting/">this page</a>.</p>
+    <p><a href="/assets/CV.pdf" target="_blank" class="cv-link">View my CV (PDF)</a></p>
     <br><br>
 </section>
 
@@ -66,11 +60,11 @@ title: Home
     <h2>About Now</h2>
     <p> 
     
-    I'm on sabbatical! Glad for the chance to push forward a few research projects and take a brief step back from teaching. 
+    I'm currently on sabbatical -- glad for the chance to push forward a few research projects and take a brief step back from teaching. 
     <br><br>
-    Proofs just arrived for "Rethinking AGI: Beyond Anthropomorphism," a chapter for a Routledge coursebook in philosophy of mind. And now out in <em>Neurons, Behavior, Data Analysis, and Theory</em>, <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">the results of a long-running collaboration</a> across philosophy, neuroscience, cognitive science and computer science on how "use and usability" factor into these fields' concepts of representation. 
+    Proofs just arrived for "Rethinking AGI: Beyond Anthropomorphism," a chapter for a Routledge coursebook in philosophy of mind. In it I critique the identification of "AGI" with human-like intelligence, and offer my take how we should conceptualize AGI in terms of our goals for the technology. And now out in <em>Neurons, Behavior, Data Analysis, and Theory</em>, <a href="https://nbdt.scholasticahq.com/article/160037-use-and-usability-concepts-of-representation-in-philosophy-neuroscience-cognitive-science-and-computer-science" target="_blank">the results of a long-running collaboration</a> across philosophy, neuroscience, cognitive science and computer science on how "use and usability" factor into these fields' concepts of representation. 
     <br><br>
-    I'm also closing in on a submission ready version of a paper on dance-cognition -- an idea that has been kicking around in some form for years. It will offer an account of distinct kinds of thinking that dancers rely on, speaking simultaneously to questions in dance scholarship and questions about embodied and enactive cognition, grounded mainly in Black social dance styles.  
+    I'm also closing in on a submission ready version of a paper on dance-cognition -- an idea that has been kicking around in some form for years. It will develop an account of distinct kinds of thinking that dancers rely on, speaking simultaneously to questions in dance scholarship and questions about embodied and enactive cognition, grounded mainly in Black social dance styles.  
     <br>
     In parallel with the theoretical work, I'm continuing to develop computational analyses of dance and movement. Using the markerless motion capture system I set up at Colby, I recorded some dancers performing a short piece I choreographed in the Spring. I'm investigating the data, working toward some new perspectives on movement learning and style -- you can get a first look below.       
     
@@ -80,7 +74,7 @@ title: Home
     </p>
 <section id="dance-viz" class="section-vizstory">
     <h2>Dance Movement Feature Comparison</h2>
-    <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s).</p>
+    <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s). Student movement is anoymized (subject 07 seen below), and in-picture video shows me, the choreographer.</p>
     <figure class="viz-block">
         <div class="viz-stagewrap">
         <video class="viz-main" src="/assets/fsm/S07a2_lagtrails.mp4" poster="/assets/fsm/S07a2_lagtrails_poster.jpg" controls preload="none" playsinline aria-label="Timing comparison: body turns red when late, blue when early, with comet trails behind whoever is ahead"></video>

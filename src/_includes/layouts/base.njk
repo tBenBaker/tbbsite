@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+{% set pageTitle = "Ben Baker — Assistant Professor of Philosophy" if title == "Home" else title + " | Ben Baker" %}
+    <title>{{ pageTitle }}</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap">
     <meta name="description" content="{{ site.description }}">
-    <meta name="keywords" content="philosophy, AI ethics, cognitive science, dance, computational kinematics, Ben Baker, Colby College, AI consulting">
-    <meta property="og:title" content="{{ title }}">
+    <meta name="keywords" content="philosophy of mind, cognitive science, artificial intelligence, philosophy of dance, computational analysis of movement, Ben Baker, Colby College">
+    <meta property="og:title" content="{{ pageTitle }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}">
-    <meta property="og:image" content="{{ site.url }}/assets/img/og-image.jpg">
+    <meta property="og:image" content="{{ site.url }}/assets/img/GordonLight1.jpg">
     <script data-goatcounter="https://tbenbaker.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
     <script type="application/ld+json">
@@ -44,16 +45,6 @@
 </head>
 <body>
     <header id="header">
-        <nav aria-label="Main Navigation">
-            <ul role="menubar">
-                <li role="none"><a role="menuitem" href="/#about">About Me</a></li>
-                <li role="none"><a role="menuitem" href="/#research">Research</a></li>
-                <li role="menuitem"><a role="menuitem" href="/#teaching">Teaching</a></li>
-                <li role="menuitem"><a role="menuitem" href="/dance/">Dance</a></li>
-                <li role="menuitem"><a role="menuitem" href="/#cv">CV</a></li>
-                <li role="menuitem"><a role="menuitem" href="https://bakerintel.com">Consulting</a></li>
-            </ul>
-        </nav>
         <div class="profile-header">
             <img src="/assets/img/GordonLight1.jpg" alt="Ben Baker" class="profile-image">
             <p class="profile-info"> Ben Baker, JD PhD <br>
@@ -77,7 +68,7 @@
                 </ul>
             </div>
             <div class="footer-copy">
-                <p>© 2024 Ben Baker</p>
+                <p>© 2026 Ben Baker</p>
             </div>
         </div>
     </footer>
