@@ -74,7 +74,7 @@ title: Home
     </p>
 <section id="dance-viz" class="section-vizstory">
     <h2>Dance Movement Feature Comparison</h2>
-    <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s). Student movement is anoymized (subject 07 seen below), and in-picture video shows me, the choreographer.</p>
+    <p class="viz-preamble">Students learned a ~36 count phrase. We visualize and plot movement features in the student (green) as compared to the choreographer (grey, re-scaled to the student's skeleton). For each comparison, the clip ends with a ¼-speed replay of the roughest section for the depicted feature(s). Student movement is anonymized (example student below), and in-picture video shows me, the choreographer.</p>
     <figure class="viz-block">
         <div class="viz-stagewrap">
         <video class="viz-main" src="/assets/fsm/S07a2_lagtrails.mp4" poster="/assets/fsm/S07a2_lagtrails_poster.jpg" controls preload="none" playsinline aria-label="Timing comparison: body turns red when late, blue when early, with comet trails behind whoever is ahead"></video>
@@ -91,31 +91,10 @@ title: Home
     </figure>
     <figure class="viz-block">
         <div class="viz-stagewrap">
-        <video class="viz-main" src="/assets/fsm/S07a2_angles.mp4" poster="/assets/fsm/S07a2_angles_poster.jpg" controls preload="none" playsinline aria-label="Pose comparison: student skeleton flushes red where joint angles stray from the choreographer's"></video>
-        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
-        </div>
-        <figcaption><strong>Pose.</strong> The student's pose shades red when her joint angles stray furthest from the choreographer's. The red marks above the timeline flag the hardest passages, labeled by their count in the music. Choreographer is recentered at the student's position each frame, abstracting away global position.</figcaption>
-    </figure>
-    <figure class="viz-block">
-        <div class="viz-stagewrap">
         <video class="viz-main" src="/assets/fsm/S07a2_2turn.mp4" poster="/assets/fsm/S07a2_2turn_poster.jpg" controls preload="none" playsinline aria-label="Facing comparison: dials show which way each body and head faces, arcs redden as the gap widens"></video>
         <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
         </div>
         <figcaption><strong>Facing.</strong> The lower dial shows which way each body faces; the upper dial does the same for the head. The green arm is the student's direction and the arc sweeps to the choreographer's — faint gray when they agree, shading to red as the gap widens, as on a turn started late or cut short.</figcaption>
-    </figure>
-    <figure class="viz-block">
-        <div class="viz-stagewrap">
-        <video class="viz-main" src="/assets/fsm/S07a2_lower.mp4" poster="/assets/fsm/S07a2_lower_poster.jpg" controls preload="none" playsinline aria-label="Footwork comparison: ghost pinned to the student's hips, red arrows point from drifting knees and feet toward the choreographer's"></video>
-        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
-        </div>
-        <figcaption><strong>Footwork.</strong> A close-up comparison of legs and feet. Whenever a knee or foot drifts too far, a red arrow points from the student's joint toward the choreographer's. Choreographer is recentered at the student's position each frame, abstracting away global position. </figcaption>
-    </figure>
-    <figure class="viz-block">
-        <div class="viz-stagewrap">
-        <video class="viz-main" src="/assets/fsm/S07a2_2expandc.mp4" poster="/assets/fsm/S07a2_2expandc_poster.jpg" controls preload="none" playsinline aria-label="Expansion comparison: the choreographer's reach is a faint shell and the student's arrows poke past it or fall inside it"></video>
-        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
-        </div>
-        <figcaption><strong>Expansion.</strong> The faint gray shell is the choreographer's shape — how far she reaches out from her own center — and the student's arrows share that center, poking past the shell when she opens out further and falling inside it when she stays gathered. Both are measured relative to each dancer's own body size. The bar at the right tracks the gap: red and up when the student is more expanded, blue and down when less.</figcaption>
     </figure>
 <script>
 (function(){
