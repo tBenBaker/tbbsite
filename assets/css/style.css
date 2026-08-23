@@ -557,7 +557,7 @@ a:hover {
 
 .viz-block figcaption {
     color: #fff;
-    font-size: 0.95em;
+    font-size: 1.25em; /* match the body paragraphs (section p) */
     margin-top: 8px;
 }
 
