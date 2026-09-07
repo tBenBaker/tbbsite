@@ -25,8 +25,8 @@ title: Home
     <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S1364661322002108?dgcid=author">Three Aspects of Representation in Neuroscience</a> (with Ben Lansdell and Konrad Kording),<br>-- 2022 <em>Trends in Cognitive Sciences</em></p>
     <p><a href="http://ceur-ws.org/Vol-3255/paper6.pdf">Creativity in AI Dance Art</a><br>-- 2022 <em>International Conference on Computational Creativity</em></p>
     <p><a href="https://link.springer.com/article/10.1007/s10539-021-09784-4">Natural information, factivity and nomicity</a><br>-- 2021 <em>Biology and Philosophy</em></p>
-    <p><a href="https://revistas.uptc.edu.co/index.php/cuestiones_filosofia/article/view/16074">Referee Report of (hypothetical) <em>Philosophy-101 Textbook</em>, by Professor Unspecified</a><br>-- 2021 <em>Teaching Philosophy</em><br>
-    &nbsp;&nbsp;&nbsp;<a href="https://www.pdcnet.org/teachphil/content/teachphil_2021_0999_3_30_142">Spanish Translation by Fredy H.P. Galindo</a><br>&nbsp;&nbsp;&nbsp;-- 2023 <em>Cuestiones Filosophia</em></p>
+    <p><a href="https://www.pdcnet.org/teachphil/content/teachphil_2021_0044_0002_0145_0157">Referee Report of (hypothetical) <em>Philosophy-101 Textbook</em>, by Professor Unspecified</a><br>-- 2021 <em>Teaching Philosophy</em><br>
+    &nbsp;&nbsp;&nbsp;<a href="https://revistas.uptc.edu.co/index.php/cuestiones_filosofia/article/view/16074">Spanish Translation by Fredy H.P. Galindo</a><br>&nbsp;&nbsp;&nbsp;-- 2023 <em>Cuestiones de Filosofía</em></p>
 </section>
 
 <section id="teaching" class="section-teaching">
