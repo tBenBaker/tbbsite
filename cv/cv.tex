@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 % Package imports
 \usepackage{latexsym}
@@ -33,7 +33,7 @@
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\geometry{left=1.4cm, top=0.7cm, right=1.2cm, bottom=0.8cm}
 \setlength{\footskip}{5pt} % Addressing fancyhdr warning
 
 % Hyperlink setup
@@ -98,6 +98,15 @@
     \vspace{-2mm}
 }
 
+% Heading with no location/role line (avoids a trailing comma)
+\newcommand{\resumeSimpleHeading}[2]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#2}} \\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
 % Modified to remove dashes
 \newcommand{\resumeSubheading}[4]{
 \vspace{0.5mm}\item
@@ -125,9 +134,9 @@
 \renewcommand{\labelitemii}{\textendash}
 
 % Slightly reduced spacing in lists to keep things tight.
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.6mm,topsep=0mm]}
 \newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm,rightmargin=2ex,topsep=0mm]}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=1mm,topsep=0mm]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.6mm,topsep=0mm]}
 
 % Remove extra vspace after lists
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
@@ -136,6 +145,7 @@
 
 % cvsection: keep similar vertical spacing
 \newcommand{\cvsection}[1]{%
+  \needspace{6\baselineskip}%
   \vspace{2mm}
   \begin{tcolorbox}
     \textbf{\large #1}
@@ -319,6 +329,7 @@
     \item Philosophy of Cognitive Science
     \item Philosophy of Science
     \item Bodies and Power
+    \item LLM Roleplay assignment featured in \textit{The Chronicle of Higher Education} (June 2026)
 \resumeItemListEnd
 
 \resumeSubheading
@@ -467,23 +478,19 @@
 \resumeItemListEnd
 
 \needspace{8\baselineskip}
-\resumeSubheading
-    {Conference/Event Organization}{}
-    {}{2018--present}
+\resumeSimpleHeading{Conference/Event Organization}{2018--present}
 \resumeItemListStart
     \item \textbf{Philosophy Symposium} (Spring 2025, \textit{Colby}): Organized annual public lecture on Ethics of Social AI, with student participation, sponsored by the Philosophy department and the Davis AI Institute
     \item \textbf{The Flavor Continues Residency Organizer} (2024, \textit{Colby}): Coordinated residency for a Boston-based Hip Hop non-profit, offering community workshops, guest teaching in Colby dance classes, and a performance
-    \item \textbf{Birge Lecture Co-organizer} (Fall 2023, \textit{Colby}): Helped select speaker and support publicity for Colby's annual Kingsley Birge Memorial Lecture in Sociology
-    \item \textbf{Philosophy and Engagement Conference Co-organizer} (2019, \textit{UPenn}): Collaborated on planning and executing an interdisciplinary conference exploring the intersection of philosophy and community engagement
-    \item \textbf{Indian Philosophy Reading Group} (2019, \textit{UPenn}): Managed communications around logistics and selecting readings for graduate student discussion group
-    \item \textbf{Admitted Student Weekend Coordinator} (2018, \textit{UPenn}): Organized accommodations, planned activities, and facilitated interactions between faculty and prospective graduate students during recruitment weekend
+    \item \textbf{Birge Lecture Co-organizer} (Fall 2023, \textit{Colby}): Helped select and publicize the speaker for Colby's annual Birge Lecture
+    \item \textbf{Philosophy and Engagement Conference Co-organizer} (2016, \textit{UPenn}): Interdisciplinary conference on philosophy and community engagement
+    \item \textbf{Indian Philosophy Reading Group} (2019, \textit{UPenn}): Logistics and reading selection for a graduate discussion group
+    \item \textbf{Admitted Student Weekend Coordinator} (2018, \textit{UPenn}): Accommodations, activities, and faculty meetings for prospective students
 \resumeItemListEnd
 
-\resumeSubheading
-    {Peer Review}{}
-    {}{ongoing}
+\resumeSimpleHeading{Peer Review}{ongoing}
 \resumeItemListStart
-    \item \textbf{Journal reviewer:} \textit{Philosophical Psychology}; \textit{Philosophy of Science}; \textit{IEEE Robotics and Automation Magazine}; \textit{Dance Research Journal}
+    \item \textbf{Reviewer:} \textit{Philosophical Psychology}; \textit{Philosophy of Science}; \textit{IEEE Robotics and Automation Magazine}; \textit{Dance Research Journal}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
