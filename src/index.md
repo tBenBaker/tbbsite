@@ -83,13 +83,6 @@ title: Home
         </div>
         <figcaption><strong>Level &amp; travel.</strong> The two dots on the left rise and fall with each dancer's level — gray for the choreographer, green for the student — showing who gets low, and when. The bar at the bottom lights up during traveling moves: red means the student covers less floor than the choreography asks, blue means more.</figcaption>
     </figure>
-    <figure class="viz-block">
-        <div class="viz-stagewrap">
-        <video class="viz-main" src="/assets/fsm/S07a2_2turn.mp4" poster="/assets/fsm/S07a2_2turn_poster.jpg" controls preload="none" playsinline aria-label="Facing comparison: dials show which way each body and head faces, arcs redden as the gap widens"></video>
-        <video class="viz-pip" src="/assets/fsm/S07a2_chorcam.mp4" poster="/assets/fsm/S07a2_chorcam_poster.jpg" muted playsinline preload="metadata" tabindex="-1" aria-label="The choreographer on camera, synced with the comparison"></video>
-        </div>
-        <figcaption><strong>Facing.</strong> The lower dial shows which way each body faces; the upper dial does the same for the head. The green arm is the student's direction and the arc sweeps to the choreographer's — faint gray when they agree, shading to red as the gap widens, as on a turn started late or cut short.</figcaption>
-    </figure>
 <script>
 (function(){
   // Camera PiP — slaved to each comparison clip. The chorcam asset is trimmed
