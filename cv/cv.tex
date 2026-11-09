@@ -126,6 +126,15 @@
     \vspace{-2.4mm}
 }
 
+% Single-line project heading (no subtitle row).
+\newcommand{\resumeProjectSingle}[2]{
+\vspace{0mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#2}} \\
+    \end{tabular*}
+    \vspace{-5.3mm}
+}
+
 % For sub-bullets: use a smaller font and reduce extra vertical spacing.
 \newcommand{\resumeSubItem}[2]{{\small\resumeItem{#1}{#2}}\vspace{-2pt}}
 
@@ -335,7 +344,6 @@
     \item Philosophy of Cognitive Science
     \item Philosophy of Science
     \item Bodies and Power
-    \item LLM Roleplay assignment featured in \textit{The Chronicle of Higher Education} (June 2026)
 \resumeItemListEnd
 
 \resumeSubheading
@@ -450,14 +458,6 @@
 \resumeItemListEnd
 
 \resumeProject
-    {Media Coverage}{\textit{Computational Kinematics of Dance} (\textit{Frontiers in Robotics and AI}, 2024)}{}{}
-\resumeItemListStart
-    \item \textit{Dance Magazine}, feature on AI, motion capture, and dance [\href{https://dancemagazine.com/ai-motion-capture-dance/}{link}]
-    \item \textit{Colby Magazine}, feature on the dance-genre classifier
-    \item SciTube, educational video episode on the paper
-\resumeItemListEnd
-
-\resumeProject
     {Movement Modeling (KineTrace)}{Colby College}{2025--present}{}
 \resumeItemListStart
     \item Developing self-supervised next-window-prediction models trained on a custom biomechanical featurization of human movement (precursor: \textit{Frontiers} 2024); early-stage collaboration with Amy LaViers (Robotics, Automation, and Dance Lab, Germantown PA)
@@ -476,6 +476,15 @@
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\cvsection{MEDIA COVERAGE}
+\resumeItemListStart
+    \item \textit{The Chronicle of Higher Education}, LLM roleplay assignment featured (June 2026)
+    \item \textit{Dance Magazine}, feature on AI, motion capture, and dance [\href{https://dancemagazine.com/ai-motion-capture-dance/}{link}]
+    \item \textit{Colby Magazine}, feature on the dance-genre classifier
+    \item SciTube, educational video episode on \textit{Computational Kinematics of Dance} (\textit{Frontiers in Robotics and AI}, 2024)
+\resumeItemListEnd
 
 %-------------------------------------------
 \cvsection{PROFESSIONAL SERVICE \& LEADERSHIP}
